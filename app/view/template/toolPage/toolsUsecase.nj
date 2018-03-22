@@ -1,7 +1,18 @@
 <div id="toolsUsecasesWrapper">
     <h2 class="toolsSectionHead">{{__('use_case')}}</h2>
     <div id="toolsUsecases" class="widthLimitToolsSmall">
+    {% for usecase in usecases %}
         <div class="toolsUsecasesItem">
+            <div class="toolsUsecasesItemImg">
+                <img class="width100" draggable="false" src="{{usecase.toolsUsecasesItemImg}}" alt="Bounding Box Annotation tool for Object Detection - 2">
+            </div>
+            <div class="toolsUsecasesItemContent">
+                <h3>{{usecase.toolsUsecasesItemContentTitle}}</h3>
+                <p>{{usecase.toolsUsecasesItemContentDescription}}</p>
+            </div>
+        </div> 
+    {% endfor %}
+        {# <div class="toolsUsecasesItem">
             <div class="toolsUsecasesItemImg">
                 <img class="width100" draggable="false" src="/image/tools/usecases/BoundingBox_SelfDrivingCars.jpg" alt="Bounding Box Annotation tool for Object Detection - 2">
             </div>
@@ -39,6 +50,6 @@
                 <h3>Drone and Robot training</h3>
                 <p>Labelled images for training smart surveillance drones and robots to identify a variety of objects.</p>
             </div>
-        </div>
+        </div> #}
     </div>
 </div>

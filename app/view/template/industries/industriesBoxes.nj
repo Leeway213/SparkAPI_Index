@@ -1,0 +1,54 @@
+<h2 class="sectionHeader">{{__('usecase_title', title)}}</h2>
+<div id="industriesBoxes" class="widthLimit">
+    {% for usecase in usecases %}
+
+    <div class="industriesBoxItem">
+        <div class="industriesBoxImage imageAnnotation">
+            <img draggable="false" class="annotationBackdrop" src="{{usecase.img}}" alt="Bounding boxes">
+        </div>
+        <div class="industriesBoxText">
+            <h3>{{usecase.title}}</h3>
+            <p>{{usecase.description}}</p>
+        </div>
+    </div> 
+
+    {% endfor %}
+    {# <div class="industriesBoxItem">
+        <div class="industriesBoxImage imageAnnotation">
+            <img draggable="false" class="annotationBackdrop" src="/image/tools/usecases/BoundingBox_SelfDrivingCars.jpg" alt="Bounding boxes">
+        </div>
+        <div class="industriesBoxText">
+            <h3>Bounding Boxes</h3>
+            <p>Bounding boxes can be used for general object recognition. Though not as precise as it's more complex successors,
+                they are more than sufficient in most scenarios.</p>
+        </div>
+    </div>
+    <div class="industriesBoxItem">
+        <div class="industriesBoxImage imageAnnotation">
+            <img draggable="false" class="annotationBackdrop" src="/image/tools/usecases/3DCuboid_AutonomousVehicles.jpg" alt="Semantic Segmentation">
+        </div>
+        <div class="industriesBoxText">
+            <h3>3D Cuboids</h3>
+            <p>Three dimensional bounding can be used for recognizing vehicles, pedestrians, cyclists &amp; obstacles on the
+                road.</p>
+        </div>
+    </div>
+    <div class="industriesBoxItem">
+        <div class="industriesBoxImage imageAnnotation">
+            <img draggable="false" class="annotationBackdrop" src="/image/tools/usecases/LineAnnotation_Lanes.png" alt="Points lines and polygons">
+        </div>
+        <div class="industriesBoxText">
+            <h3>Lane Detection</h3>
+            <p>Well-defined different kinds of lanes for ego car, bicycle, opposite direction traffic, divergence etc.</p>
+        </div>
+    </div>
+    <div class="industriesBoxItem">
+        <div class="industriesBoxImage imageAnnotation">
+            <img draggable="false" class="annotationBackdrop" src="/image/tools/usecases/SemanticSegmentation_InstanceAware.jpg" alt="Semantic Segmentation">
+        </div>
+        <div class="industriesBoxText">
+            <h3>Semantic Segmentation</h3>
+            <p>Need even higher precision? Try out instance aware, full pixel semantic segmentations with single pixel accuracy.</p>
+        </div>
+    </div> #}
+</div>

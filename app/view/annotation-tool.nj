@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- saved from url=(0049)https://playment.io/bounding-box-annotation-tool/ -->
 <html lang="en">
 
 <head>
@@ -8,7 +7,6 @@
   <meta name="description" content="We deliver high quality 2D bounding box annotations for object detection and localization in images and videos. Applied for wide range of use cases like self-driving cars, eCommerce, insurance, drones &amp; robot training etc. We supports 100s of classes with guaranteed precision and recall.">
   <meta name="keywords" content="2D bounding box annotations, bounding box annotation tool, bounding box for object detection, bounding box computer vision, bounding box labeling, image annotation">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  {# <link href="/style/css" rel="stylesheet"> #}
   <link rel="stylesheet" type="text/css" href="/style/tools.css">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="on" http-equiv="cleartype">

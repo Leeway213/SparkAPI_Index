@@ -1,33 +1,33 @@
 <div id="header" class="servicesImageRec scrolled" style="position: fixed; top: 0px;">
     <div class="widthLimit">
-      <a id="headerLogoDiv" href="./">
+      <a id="headerLogoDiv" href="/">
         <img id="headerLogo" src="/image/logo_white.svg" alt=""> </a>
       <ul id="headerNavigation">
         <li>
-          <a itemprop="url" href="./adas">
+          <a itemprop="url" href="/industries/autonomous_vehicles">
             <span class="headerItemBg">Autonomous Vehicles</span>
           </a>
         </li>
         <li>
-          <a href="/image-annotation">
+          <a>
             <span class="headerItemBg">Annotation Tools</span>
           </a>
           <div class="headerDropdown large">
             <div class="headerDropdownInner">
               <div class="flex">
-                <a class="headerDropdownItem" itemprop="url" href="./annotation-tool/BoundingBox">
+                <a class="headerDropdownItem" itemprop="url" href="/annotation-tool/boundingbox">
                   <img class="headerDropdownIcon" src="/image/Icon_BoundingBox.svg">
                   <span class="headerDropdownText">Bounding Box</span>
                 </a>
-                <a class="headerDropdownItem" itemprop="url" href="./polygonal-segmentation-tool">
+                <a class="headerDropdownItem" itemprop="url" href="/annotation-tool/polygon">
                   <img class="headerDropdownIcon" src="/image/Icon_PolygonalAnnotation.svg">
                   <span class="headerDropdownText">Polygonal Segmentation</span>
                 </a>
-                <a class="headerDropdownItem" itemprop="url" href="./semantic-segmentation-tool">
+                <a class="headerDropdownItem" itemprop="url" href="/annotation-tool/segmentation">
                   <img class="headerDropdownIcon" src="/image/Icon_SemanticSegmentation.svg">
                   <span class="headerDropdownText">Semantic Segmentation</span>
                 </a>
-                <a class="headerDropdownItem" itemprop="url" href="./landmark-annotation-tool">
+                <a class="headerDropdownItem" itemprop="url" href="/annotation-tool/landmark">
                   <img class="headerDropdownIcon" src="/image/Icon_PointAnnotation.svg">
                   <span class="headerDropdownText">Landmark Annotation</span>
                 </a>
@@ -35,11 +35,11 @@
                   <img class="headerDropdownIcon" src="/image/Icon_VideoAnnotation.svg">
                   <span class="headerDropdownText">Video Annotation</span>
                 </a>
-                <a class="headerDropdownItem" itemprop="url" href="./line-annotation-tool">
+                <a class="headerDropdownItem" itemprop="url" href="/annotation-tool/line">
                   <img class="headerDropdownIcon" src="/image/Icon_LineAnnotation.svg">
                   <span class="headerDropdownText">Line Annotation</span>
                 </a>
-                <a class="headerDropdownItem" itemprop="url" href="./3d-cuboids-annotation-tool">
+                <a class="headerDropdownItem" itemprop="url" href="/annotation-tool/3dcuboid">
                   <img class="headerDropdownIcon" src="/image/Icon_CuboidalAnnotation.svg">
                   <span class="headerDropdownText">3D Cuboids</span>
                 </a>
@@ -57,9 +57,9 @@
           </a>
           <div class="headerDropdown small">
             <div class="headerDropdownInner">
-              <a class="headerDropdownItem" itemprop="url" href="./ecommerce">E-commerce</a>
-              <a class="headerDropdownItem" itemprop="url" href="./fintech">Banking &amp; Insurance</a>
-              <a class="headerDropdownItem" itemprop="url" href="./adas">Autonomous Vehicles</a>
+              <a class="headerDropdownItem" itemprop="url" href="/industries/e_commerce">E-commerce</a>
+              <a class="headerDropdownItem" itemprop="url" href="/industries/fintech">Banking &amp; Insurance</a>
+              <a class="headerDropdownItem" itemprop="url" href="/industries/autonomous_vehicles">Autonomous Vehicles</a>
             </div>
           </div>
         </li>

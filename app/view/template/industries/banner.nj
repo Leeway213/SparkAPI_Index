@@ -1,0 +1,11 @@
+<div id="industriesBanner" class="autonomous">
+    <div id="industryBannerBackground" style="top: 8.48px;"></div>
+    <div class="widthLimit">
+        <div id="industriesTag">{{title}}</div>
+        <h1>{{slogon}}</h1>
+        <button id="industriesBannerStarted"
+            class="getStarted">
+            <span>{{__('get_start_now')}}</span>
+        </button>
+    </div>
+</div>

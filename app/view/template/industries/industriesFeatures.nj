@@ -1,0 +1,17 @@
+<div id="industriesFeatures" class="widthLimit">
+    <div class="industriesFeatureItem">
+        <img src="/image/tools/illustrations/AssuredQuality.png" alt="Assured Quality">
+        <h3>{{__('assured_quality')}}</h3>
+        <p>{{__('assured_quality_description')}}</p>
+    </div>
+    <div class="industriesFeatureItem">
+        <img src="/image/tools/illustrations/FasterAtScale.png" alt="Faster at Scale">
+        <h3>{{__('faster_at_scale')}}</h3>
+        <p>{{__('faster_at_scale_description')}}</p>
+    </div>
+    <div class="industriesFeatureItem">
+        <img src="/image/tools/illustrations/FullyManaged.png" alt="Fully Managed">
+        <h3>{{__('fully_managed')}}</h3>
+        <p>{{__('fully_managed_description')}}</p>
+    </div>
+</div>

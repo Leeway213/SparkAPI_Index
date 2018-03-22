@@ -2,38 +2,38 @@
     <h2 class="toolsSectionHead">Other Tools We have</h2>
     <div id="otherToolsFlex" class="widthLimit">
         <div class="otherToolsItem">
-            <a href="https://playment.io/bounding-box-annotation-tool">
+            <a href="/annotation-tool/boundingbox">
                 <img class="otherToolsIcon" src="/image/Icon_BoundingBox.svg">
                 <span>Bounding Box</span>
             </a>
-            <a href="https://playment.io/landmark-annotation-tool">
+            <a href="/annotation-tool/landmark">
                 <img class="otherToolsIcon" src="/image/Icon_PointAnnotation.svg">
                 <span>Landmark Annotation</span>
             </a>
         </div>
         <div class="otherToolsItem">
-            <a href="https://playment.io/semantic-segmentation-tool">
+            <a href="/annotation-tool/segmentation">
                 <img class="otherToolsIcon" src="/image/Icon_SemanticSegmentation.svg">
                 <span>Semantic Segmentation</span>
             </a>
-            <a href="https://playment.io/polygonal-segmentation-tool">
+            <a href="/annotation-tool/polygon">
                 <img class="otherToolsIcon" src="/image/Icon_PolygonalAnnotation.svg">
                 <span>Polygonal Annotation</span>
             </a>
         </div>
         <div id="otherToolsBreak"></div>
         <div class="otherToolsItem">
-            <a href="https://playment.io/3d-cuboids-annotation-tool">
+            <a href="/annotation-tool/3dcuboid">
                 <img class="otherToolsIcon" src="/image/Icon_CuboidalAnnotation.svg">
                 <span>Cuboidal Annotation</span>
             </a>
-            <a href="https://playment.io/video-annotation-tool">
+            <a href="/annotation-tool/3dcuboid">
                 <img class="otherToolsIcon" src="/image/Icon_VideoAnnotation.svg">
                 <span>Video Annotation</span>
             </a>
         </div>
         <div class="otherToolsItem">
-            <a href="https://playment.io/line-annotation-tool">
+            <a href="/annotation-tool/line">
                 <img class="otherToolsIcon" src="/image/Icon_LineAnnotation.svg">
                 <span>Line Annotation</span>
             </a>

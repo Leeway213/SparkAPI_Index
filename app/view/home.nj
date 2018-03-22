@@ -8,7 +8,6 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="./style/font.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./style/main.css">
-  <!-- <script type="text/javascript" async="" src="/image/insight.min.js"></script> <script src="/image/1708707032759025" async=""></script> <script async="" src="/image/fbevents.js"></script> <script type="text/javascript" async="" src="/image/conversion_async.js"></script> <script type="text/javascript" async="" src="/image/n9krqvan"></script> <script type="text/javascript" async="" src="/image/gtm.js"></script> <script type="text/javascript" async="" src="/image/heap-2249854941.js"></script> <script type="text/javascript" async="" src="/image/js"></script> <script async="" src="/image/analytics.js"></script> <script type="text/javascript" async="" src="/image/analytics.min.js"></script> <script async="" src="/image/fs.js"></script> <script src="/image/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> <script src="/image/jquery.cookie.min.js" integrity="sha256-1A78rJEdiWTzco6qdn3igTBv9VupN3Q1ozZNTR4WE/Y=" crossorigin="anonymous"></script> <script src="/image/jquery.mobile-events.min.js"></script> <script src="/image/snap.svg-min.js"></script> <script src="/image/main.js"></script> <script>window._fs_debug = !1, window._fs_host = "fullstory.com", window._fs_org = "7BFAS", window._fs_namespace = "FS", function (e, o, n, i, s, t, c, a) { return n in e ? void (e.console && e.console.log && e.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].')) : (c = e[n] = function (e, o) { c.q ? c.q.push([e, o]) : c._api(e, o) }, c.q = [], t = o.createElement(i), t.async = 1, t.src = "https://" + _fs_host + "/s/fs.js", a = o.getElementsByTagName(i)[0], a.parentNode.insertBefore(t, a), c.identify = function (e, o) { c(s, { uid: e }), o && c(s, o) }, c.setUserVars = function (e) { c(s, e) }, c.identifyAccount = function (e, o) { t = "account", o = o || {}, o.acctId = e, c(t, o) }, void (c.clearUserCookie = function (e, n, i) { if (!e || document.cookie.match("fs_uid=[`;`]*`[`;`]*`[`;`]*`")) for (n = o.domain; ;) { if (o.cookie = "fs_uid=;domain=" + n + ";path=/;expires=" + new Date(0).toUTCString(), i = n.indexOf("."), i < 0) break; n = n.slice(i + 1) } })) }(window, document, window._fs_namespace, "script", "user")</script> <script>!function () { var t = window.analytics = window.analytics || []; if (!t.initialize) if (t.invoked) window.console && console.error && console.error("Segment snippet included twice."); else { t.invoked = !0, t.methods = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "reset", "group", "track", "ready", "alias", "debug", "page", "once", "off", "on"], t.factory = function (e) { return function () { var n = Array.prototype.slice.call(arguments); return n.unshift(e), t.push(n), t } }; for (var e = 0; e < t.methods.length; e++) { var n = t.methods[e]; t[n] = t.factory(n) } t.load = function (t) { var e = document.createElement("script"); e.type = "text/javascript", e.async = !0, e.src = ("https:" === document.location.protocol ? "https://" : "http://") + "cdn.segment.com/analytics.js/v1/" + t + "/analytics.min.js"; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(e, n) }, t.SNIPPET_VERSION = "4.0.0", t.load("uy8wCypzlZlzXEzQUokjaMnztHDv4kyP"), t.page() } }()</script> <script>!function (e, t, a, n, c, o, s) { e.GoogleAnalyticsObject = c, e[c] = e[c] || function () { (e[c].q = e[c].q || []).push(arguments) }, e[c].l = 1 * new Date, o = t.createElement(a), s = t.getElementsByTagName(a)[0], o.async = 1, o.src = n, s.parentNode.insertBefore(o, s) }(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"), ga("create", "UA-65648124-1", "auto"), ga("require", "GTM-WQDTVNX"), ga("send", "pageview")</script> -->
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="on" http-equiv="cleartype">
   <link rel="apple-touch-icon" sizes="57x57" href="./favicons/apple-icon-57x57.png">
@@ -47,8 +46,6 @@
   <meta name="msvalidate.01" content="646DB3A7B77DCB1D670094DEBD762EF6">
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js" integrity="sha256-1A78rJEdiWTzco6qdn3igTBv9VupN3Q1ozZNTR4WE/Y=" crossorigin="anonymous"></script>
-  <!-- <script src="./script/main.js"></script> -->
-  <!-- <script src="/image/saved_resource"></script> -->
 </head>
 
 <body id="landing" class="">
@@ -264,32 +261,32 @@
     </div>
     <div id="servicesContents" class="widthLimit">
       <div class="servicesItem">
-        <a href="./bounding-box-annotation-tool">
+        <a href="/annotation-tool/boundingbox">
           <img class="otherToolsIcon" src="/image/tools/icons/Icon_BoundingBox.svg">
           <span>Bounding Box</span>
         </a>
-        <a href="./landmark-annotation-tool">
+        <a href="/annotation-tool/landmark">
           <img class="otherToolsIcon" src="/image/tools/icons/Icon_PointAnnotation.svg">
           <span>Landmark Annotation</span>
         </a>
       </div>
       <div class="servicesItem">
-        <a href="./semantic-segmentation-tool">
+        <a href="/annotation-tool/segmentation">
           <img class="otherToolsIcon" src="/image/tools/icons/Icon_SemanticSegmentation.svg">
           <span>Semantic Segmentation</span>
         </a>
-        <a href="./polygonal-segmentation-tool">
+        <a href="/annotation-tool/polygon">
           <img class="otherToolsIcon" src="/image/tools/icons/Icon_PolygonalAnnotation.svg">
           <span>Polygonal Annotation</span>
         </a>
       </div>
       <div id="otherToolsBreak"></div>
       <div class="servicesItem">
-        <a href="./3d-cuboids-annotation-tool">
+        <a href="/annotation-tool/3dcuboid">
           <img class="otherToolsIcon" src="/image/tools/icons/Icon_CuboidalAnnotation.svg">
           <span>Cuboidal Annotation</span>
         </a>
-        <a href="./video-annotation-tool">
+        <a href="/annotation-tool/3dcuboid">
           <img class="otherToolsIcon" src="/image/tools/icons/Icon_VideoAnnotation.svg">
           <span>Video Annotation</span>
         </a>
