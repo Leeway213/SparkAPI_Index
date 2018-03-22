@@ -2,7 +2,7 @@
     <div id="bannerContents" class="widthLimit">
         <div id="toolsBannerImg">
             <img id="toolsBannerBackground" alt="Bounding Box Annotation tool for Object Detection - 1" src="{{toolsBannerImg}}">
-            <img id="toolsBannerImgOverlay" alt="" src="{{toolsBannerImgOverlay}}" class="revealed">
+            <img id="toolsBannerImgOverlay" alt="" src="{{toolsBannerImgOverlay}}">
         </div>
         <div id="toolsBannerText">
             <h1>{{toolsBannerTextTitle}}</h1>

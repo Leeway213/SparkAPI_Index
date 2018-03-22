@@ -78,7 +78,7 @@
         </li>
         <li>
           <a class="headerContactUs">
-            <span class="headerItemBg">Contact Us</span>
+            <span class="headerItemBg nav-header">Contact Us</span>
           </a>
         </li>
       </ul>
