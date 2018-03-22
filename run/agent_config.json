@@ -77,7 +77,7 @@
       "cookieMaxAge": "1y"
     },
     "watcher": {
-      "type": "development",
+      "type": "default",
       "eventSources": {
         "default": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-watcher\\lib\\event-sources\\default",
         "development": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-watcher\\lib\\event-sources\\development"
@@ -94,17 +94,14 @@
       "fileExtensions": [],
       "whitelist": null
     },
-    "development": {
-      "watchDirs": [],
-      "ignoreDirs": [],
-      "fastReady": false,
-      "reloadOnDebug": true,
-      "overrideDefault": false
-    },
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
+<<<<<<< HEAD
         "file": "D:\\study\\project\\newHome\\new_index\\logs\\index\\egg-schedule.log"
+=======
+        "file": "/home/leeway/logs/index/egg-schedule.log"
+>>>>>>> master
       }
     },
     "logrotator": {
@@ -128,8 +125,13 @@
       "maxAge": 31536000
     },
     "view": {
+<<<<<<< HEAD
       "root": "D:\\study\\project\\newHome\\new_index\\app\\view",
       "cache": false,
+=======
+      "root": "/home/leeway/workspace/sparkapi/sparkapi/index/app/view",
+      "cache": true,
+>>>>>>> master
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
       "mapping": {
@@ -141,9 +143,9 @@
       "throwOnUndefined": false,
       "trimBlocks": false,
       "lstripBlocks": false,
-      "cache": false
+      "cache": true
     },
-    "env": "local",
+    "env": "prod",
     "name": "index",
     "keys": "<String len: 24>",
     "proxy": false,
@@ -230,21 +232,23 @@
       }
     },
     "logger": {
+<<<<<<< HEAD
       "dir": "D:\\study\\project\\newHome\\new_index\\logs\\index",
+=======
+      "dir": "/home/leeway/logs/index",
+>>>>>>> master
       "encoding": "utf8",
-      "env": "local",
+      "env": "prod",
       "level": "INFO",
       "consoleLevel": "INFO",
-      "disableConsoleAfterReady": false,
+      "disableConsoleAfterReady": true,
       "outputJSON": false,
       "buffer": true,
       "appLogName": "index-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {
-        "consoleLevel": "WARN"
-      },
+      "coreLogger": {},
       "allowDebugAtProd": true,
       "type": "agent"
     },
@@ -385,6 +389,7 @@
       "path": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-multipart",
       "version": "2.0.0"
     },
+<<<<<<< HEAD
     "development": {
       "enable": true,
       "package": "egg-development",
@@ -400,6 +405,8 @@
       "path": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-development",
       "version": "2.2.0"
     },
+=======
+>>>>>>> master
     "schedule": {
       "enable": true,
       "package": "egg-schedule",

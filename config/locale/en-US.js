@@ -1,5 +1,66 @@
 module.exports = {
 
+    // Header
+    annotation_tools:       "Annotation Tools",
+    bounding_box:           "Bounding Box",
+    polygonal_segmentation: "Polygonal Segmentation",
+    semantic_segmentation:  "Semantic Segmentation",
+    landmark_annotation:    "Landmark Annotation",
+    video_annotation:       "Video Annotation",
+    line_annotation:        "Line Annotation",
+    cuboids:                "3D Cuboids",
+    lidar:                  "Lidar(Coming soon)",
+
+    not_found:              "Have a use-case, but can't find it here?",
+
+    industries:             "Industries",
+    banking_insurance:      "Banking & Insurance",
+    autonomous_vehicles:    "Autonomous Vehicles",
+
+    // Home page
+    banner_slogon:          "Data labeling for Computer Vision",
+    banner_description:     "Build training data for computer vision models with our fully managed enterprise solution",
+
+    trusted_by:             "TRUSTED BY",
+    services_offer:         "SERVICES WE OFFER",
+
+    cuboidal_annotation:    "Cuboidal Annotation",
+
+    why_us:                 "WHY SparkAPI?",
+
+    home_assured_quality_description:   "Consistently delivering high-quality results is our highest priority. Our quality assurance (QA) models are built with state-of-the-art machine learning models to ensure that we meet extremely high quality benchmarks. QA models include worker training, qualification, ranking & response scoring systems and much more.",
+    home_assured_quality_pic_desc:      "We sign contracts for guaranteed quality and response time. We abide by them or you get your money back.",
+    precision:                          "Precision",
+    recall:                             "Recall",
+    response_time:                      "Response Time",
+
+    home_faster_at_scale_description:   "With 300,000+ skilled workers ready to work round-the-clock on SparkAPI's mobile and web app, we can generate millions of labels in a matter of hours. As the workers do more work, they get better and SparkAPI is able to accomplish much more work in lesser time.",
+    home_faster_at_scale_pic_desc:      "Worker expertise increases significantly with increase in project scale and so they work faster.",
+
+    home_fully_managed_description:     "You just need to share the data & labelling guidelines with our Human Intelligence (HI) team. We provide a dedicated project manager who shall prepare task instructions, train the workforce, setup workflows and ensure that contract level SLAs are delivered consistently.",
+    home_fully_managed_pic_desc:        "We offer hassle-free end to end project management to setup your process workflow on SparkAPI.",
+    workforce_training:                 "WORKFORCE TRAINING",
+    workflow_setup:                     "Workflow Setup",
+    task_design:                        "Task Design",
+    quality_assurance:                  "QUALITY ASSURANCE",
+    player_incentivization:             "PLAYER INCENTIVIZATION",
+    task_intructions:                   "TASK INSTRUCTIONS",
+
+    how_works:                          "HOW SparkAPI WORKS?",
+    
+    share_guidelines:                   "Share Guidelines",
+    worker_training:                    "Worker Training & Incentives",
+
+    share_data:                         "Share Data via API/FTP",
+    artificial_intelligence:            "Artificial Intelligence",
+    low_confidence:                     "Low Confidence",
+    high_confidence:                    "High Confidence",
+    human_intelligence:                 "Human Intelligence",
+
+    just_chill:                         "Just Chill!",
+    collating_data:                     "Collating the Data",
+    quality_check:                      "Quality Check",
+
     // Contact us
     contact_us:                             "Contact Us",
     learn_more:                             "To learn more about SparkAPI",
@@ -144,19 +205,9 @@ module.exports = {
 
 
     // Industries page
-    assured_quality:        "Assured Quality",
-    assured_quality_description:        "Guaranteed accuracy. We know you’d have it no other way.",
-
-    faster_at_scale:        "Faster at scale",
-    faster_at_scale_description: "Use our API to get responses within minutes.",
-
-    fully_managed:      "Fully managed",
-    fully_managed_description:      "We do the heavy lifting so that you can relax.",
-
     usecase_title:      "A suite of services for %s companies",
 
     // Autonomous Vehicles
-    autonomous_vehicles:    "Autonomous Vehicles",
     autonomous_driving:     "Autonomous Driving",
     autonomous_slogon:      "Get data tagged with high precision &amp; recall to train reliable self-driving models",
 
@@ -181,7 +232,7 @@ module.exports = {
     e_commerce_slogon:      "End to end solution for all types of catalog operations",
 
     usecase_title_1_e_commerce:   "Categorize Images",
-    usecase_description_1_e_commerce: "Categorize products across thousands of categories with Playment's AI + Human Intelligence service with the highest quality output available in the market.",
+    usecase_description_1_e_commerce: "Categorize products across thousands of categories with SparkAPI's AI + Human Intelligence service with the highest quality output available in the market.",
     usecase_img_1_e_commerce:  "/image/industries/usecases/eCommerce1.1.jpg",
 
     usecase_title_2_e_commerce:   "Attribute Extraction & QC",
@@ -208,7 +259,7 @@ module.exports = {
     finance_slogon:      "Human assisted OCR to replace manual data entry operations",
 
     usecase_title_1_fintech:   "Document Verification",
-    usecase_description_1_fintech: "Onboard your customer/vendor faster with Playment AI-HI. Validate multiple customer ID documents within minutes.",
+    usecase_description_1_fintech: "Onboard your customer/vendor faster with SparkAPI AI-HI. Validate multiple customer ID documents within minutes.",
     usecase_img_1_fintech:  "/image/industries/usecases/fintech1.jpg",
 
     usecase_title_2_fintech:   "Transcribe Receipts & Invoices",

@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>Bounding Box Annotation tool for Object Detection | Playment</title>
+    <title>Bounding Box Annotation tool for Object Detection | SparkAPI</title>
     <meta name="description" content="We deliver high quality 2D bounding box annotations for object detection and localization in images and videos. Applied for wide range of use cases like self-driving cars, eCommerce, insurance, drones &amp; robot training etc. We supports 100s of classes with guaranteed precision and recall.">
     <meta name="keywords" content="2D bounding box annotations, bounding box annotation tool, bounding box for object detection, bounding box computer vision, bounding box labeling, image annotation">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -29,24 +29,24 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <meta property="og:title" content="Bounding Box Annotation tool for Object Detection | Playment">
+    <meta property="og:title" content="Bounding Box Annotation tool for Object Detection | SparkAPI">
     <meta property="og:description" content="We deliver high quality 2D bounding box annotations for object detection and localization in images and videos. Applied for wide range of use cases like self-driving cars, eCommerce, insurance, drones &amp; robot training etc. We supports 100s of classes with guaranteed precision and recall.">
-    <meta property="og:image" content="https://playment.io/favicons/ogBoundingBox.jpg">
-    <meta property="og:url" content="https://playment.io">
+    {# <meta property="og:image" content="https://playment.io/favicons/ogBoundingBox.jpg"> #}
+    {# <meta property="og:url" content="https://playment.io"> #}
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@PlaymentHQ">
-    <meta name="twitter:creator" content="@PlaymentHQ">
-    <meta name="twitter:title" content="Bounding Box Annotation tool for Object Detection | Playment">
+    {# <meta name="twitter:site" content="@PlaymentHQ"> #}
+    {# <meta name="twitter:creator" content="@PlaymentHQ"> #}
+    <meta name="twitter:title" content="Bounding Box Annotation tool for Object Detection | SparkAPI">
     <meta name="twitter:description" content="We deliver high quality 2D bounding box annotations for object detection and localization in images and videos. Applied for wide range of use cases like self-driving cars, eCommerce, insurance, drones &amp; robot training etc. We supports 100s of classes with guaranteed precision and recall.">
-    <meta name="twitter:image" content="https://playment.io/favicons/ogBoundingBox.jpg">
+    {# <meta name="twitter:image" content="https://playment.io/favicons/ogBoundingBox.jpg"> #}
     <meta content="true" name="HandheldFriendly">
     <meta content="320" name="MobileOptimized">
     <meta content="yes" name="apple-mobile-web-app-capable">
     <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
-    <meta property="og:site_name" content="Bounding Box Annotation tool for Object Detection | Playment">
+    <meta property="og:site_name" content="Bounding Box Annotation tool for Object Detection | SparkAPI">
     <meta name="twitter:image:alt" content="We deliver high quality 2D bounding box annotations for object detection and localization in images and videos. Applied for wide range of use cases like self-driving cars, eCommerce, insurance, drones &amp; robot training etc. We supports 100s of classes with guaranteed precision and recall.">
     <meta name="msvalidate.01" content="646DB3A7B77DCB1D670094DEBD762EF6">
-    <link rel="canonical" href="https://playment.io/image-annotation">
+    {# <link rel="canonical" href="https://playment.io/image-annotation"> #}
 </head>
 
 <body id="toolsBody">

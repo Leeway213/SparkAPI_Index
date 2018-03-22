@@ -2,6 +2,7 @@
   "keys": "D:\\study\\project\\newHome\\new_index\\config\\config.default.js",
   "middleware": "D:\\study\\project\\newHome\\new_index\\config\\config.default.js",
   "static": {
+<<<<<<< HEAD
     "prefix": "D:\\study\\project\\newHome\\new_index\\config\\config.default.js",
     "dir": "D:\\study\\project\\newHome\\new_index\\config\\config.default.js",
     "dynamic": "D:\\study\\project\\newHome\\new_index\\config\\config.default.js",
@@ -9,15 +10,30 @@
     "maxAge": "D:\\study\\project\\newHome\\new_index\\config\\config.default.js",
     "buffer": "D:\\study\\project\\newHome\\new_index\\config\\config.default.js",
     "maxFiles": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-static\\config\\config.default.js"
+=======
+    "prefix": "/home/leeway/workspace/sparkapi/sparkapi/index/config/config.default.js",
+    "dir": "/home/leeway/workspace/sparkapi/sparkapi/index/config/config.default.js",
+    "dynamic": "/home/leeway/workspace/sparkapi/sparkapi/index/config/config.default.js",
+    "preload": "/home/leeway/workspace/sparkapi/sparkapi/index/config/config.default.js",
+    "maxAge": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-static/config/config.prod.js",
+    "buffer": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-static/config/config.prod.js",
+    "maxFiles": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-static/config/config.default.js"
+>>>>>>> master
   },
   "view": {
     "defaultViewEngine": "D:\\study\\project\\newHome\\new_index\\config\\config.default.js",
     "mapping": {
       ".nj": "D:\\study\\project\\newHome\\new_index\\config\\config.default.js"
     },
+<<<<<<< HEAD
     "root": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-view\\config\\config.default.js",
     "cache": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-view\\config\\config.local.js",
     "defaultExtension": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-view\\config\\config.default.js"
+=======
+    "root": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-view/config/config.default.js",
+    "cache": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-view/config/config.default.js",
+    "defaultExtension": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-view/config/config.default.js"
+>>>>>>> master
   },
   "i18n": {
     "queryField": "D:\\study\\project\\newHome\\new_index\\config\\config.default.js",
@@ -51,9 +67,15 @@
       "value": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
+<<<<<<< HEAD
       "enable": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-security\\config\\config.local.js",
       "maxAge": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-security\\config\\config.default.js",
       "includeSubdomains": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-security\\config\\config.default.js"
+=======
+      "enable": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-security/config/config.default.js",
+      "maxAge": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-security/config/config.default.js"
+>>>>>>> master
     },
     "dta": {
       "enable": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-security\\config\\config.default.js"
@@ -93,7 +115,11 @@
     "appErrorFilter": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-onerror\\config\\config.default.js"
   },
   "watcher": {
+<<<<<<< HEAD
     "type": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-watcher\\config\\config.local.js",
+=======
+    "type": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-watcher/config/config.default.js",
+>>>>>>> master
     "eventSources": {
       "default": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-watcher\\config\\config.default.js",
       "development": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-watcher\\config\\config.default.js"
@@ -110,6 +136,7 @@
     "fileExtensions": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-multipart\\config\\config.default.js",
     "whitelist": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-multipart\\config\\config.default.js"
   },
+<<<<<<< HEAD
   "development": {
     "watchDirs": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-development\\config\\config.default.js",
     "ignoreDirs": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-development\\config\\config.default.js",
@@ -117,6 +144,8 @@
     "reloadOnDebug": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-development\\config\\config.default.js",
     "overrideDefault": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-development\\config\\config.default.js"
   },
+=======
+>>>>>>> master
   "customLogger": {
     "scheduleLogger": {
       "consoleLevel": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-schedule\\config\\config.default.js",
@@ -133,11 +162,19 @@
     "maxDays": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-logrotator\\config\\config.default.js"
   },
   "nunjucks": {
+<<<<<<< HEAD
     "autoescape": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
     "throwOnUndefined": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
     "trimBlocks": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
     "lstripBlocks": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
     "cache": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+=======
+    "autoescape": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-view-nunjucks/config/config.default.js"
+>>>>>>> master
   },
   "env": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg\\config\\config.default.js",
   "name": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg\\config\\config.default.js",
@@ -225,6 +262,7 @@
     }
   },
   "logger": {
+<<<<<<< HEAD
     "dir": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg\\config\\config.default.js",
     "encoding": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg\\config\\config.default.js",
     "env": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg\\config\\config.default.js",
@@ -241,6 +279,22 @@
       "consoleLevel": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg\\config\\config.local.js"
     },
     "allowDebugAtProd": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg\\config\\config.default.js"
+=======
+    "dir": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/config.default.js",
+    "encoding": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/config.default.js",
+    "env": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/config.default.js",
+    "level": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/config.default.js",
+    "outputJSON": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/config.default.js",
+    "buffer": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/config.default.js",
+    "appLogName": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/config.default.js",
+    "coreLogName": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/config.default.js",
+    "agentLogName": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/config.default.js",
+    "errorLogName": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/config.default.js",
+    "coreLogger": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/config.default.js",
+    "allowDebugAtProd": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/config.default.js"
+>>>>>>> master
   },
   "httpclient": {
     "enableDNSCache": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg\\config\\config.default.js",
