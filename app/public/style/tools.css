@@ -2096,7 +2096,7 @@ a {
 }
 
 #industriesBanner.autonomous #industryBannerBackground {
-    background: url(/image/industry/bg_adas.png);
+    background: transparent;
     background-size: cover
 }
 

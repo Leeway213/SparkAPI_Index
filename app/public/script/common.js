@@ -3,7 +3,7 @@ function contactBox(){
     var $contact=$('#contactModal');
     $contact.show();
 }
-$(document).on('click','#landingBannerStarted,#toolsBannerStarted,#contactBannerButton,.headerItemBg.nav-header',function(e){
+$(document).on('click','#landingBannerStarted,#toolsBannerStarted,.getStarted,#contactBannerButton,.headerItemBg.nav-header',function(e){
     var validValue=document.getElementById('contactBannerForm').checkValidity();
     if($(this).attr('id')=='contactBannerButton'){
         if(validValue){

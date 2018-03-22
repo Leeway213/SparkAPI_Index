@@ -84,21 +84,21 @@
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-session/config/locales",
-        "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-security/config/locales",
-        "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-jsonp/config/locales",
-        "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-onerror/config/locales",
-        "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-i18n/config/locales",
-        "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-watcher/config/locales",
-        "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-multipart/config/locales",
-        "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-development/config/locales",
-        "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-schedule/config/locales",
-        "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-logrotator/config/locales",
-        "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-static/config/locales",
-        "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-view/config/locales",
-        "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-view-nunjucks/config/locales",
-        "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/locales",
-        "/home/leeway/workspace/sparkapi/sparkapi/index/config/locale"
+        "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-session\\config\\locales",
+        "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-security\\config\\locales",
+        "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-jsonp\\config\\locales",
+        "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-onerror\\config\\locales",
+        "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-i18n\\config\\locales",
+        "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-watcher\\config\\locales",
+        "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-multipart\\config\\locales",
+        "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-development\\config\\locales",
+        "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-schedule\\config\\locales",
+        "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-logrotator\\config\\locales",
+        "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-static\\config\\locales",
+        "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-view\\config\\locales",
+        "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-view-nunjucks\\config\\locales",
+        "D:\\study\\project\\newHome\\new_index\\node_modules\\egg\\config\\locales",
+        "D:\\study\\project\\newHome\\new_index\\config\\locale"
       ],
       "queryField": "lang",
       "cookieField": "lang",
@@ -108,8 +108,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "multipart": {
@@ -133,7 +133,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/home/leeway/workspace/sparkapi/sparkapi/index/logs/index/egg-schedule.log"
+        "file": "D:\\study\\project\\newHome\\new_index\\logs\\index\\egg-schedule.log"
       }
     },
     "logrotator": {
@@ -148,7 +148,7 @@
     "static": {
       "prefix": "",
       "dir": [
-        "/home/leeway/workspace/sparkapi/sparkapi/index/app/public"
+        "D:\\study\\project\\newHome\\new_index\\app\\public"
       ],
       "dynamic": true,
       "preload": false,
@@ -159,7 +159,7 @@
     },
     "view": {
       "root": [
-        "/home/leeway/workspace/sparkapi/sparkapi/index/app/view"
+        "D:\\study\\project\\newHome\\new_index\\app\\view"
       ],
       "cache": false,
       "defaultExtension": ".html",
@@ -230,9 +230,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "/home/leeway/workspace/sparkapi/sparkapi/index",
-    "HOME": "/home/leeway",
-    "rundir": "/home/leeway/workspace/sparkapi/sparkapi/index/run",
+    "baseDir": "D:\\study\\project\\newHome\\new_index",
+    "HOME": "C:\\Users\\Administrator",
+    "rundir": "D:\\study\\project\\newHome\\new_index\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -263,7 +263,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/home/leeway/workspace/sparkapi/sparkapi/index/logs/index",
+      "dir": "D:\\study\\project\\newHome\\new_index\\logs\\index",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -362,8 +362,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/plugin.js",
-      "path": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-session",
+      "from": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -375,8 +375,8 @@
         "session"
       ],
       "env": [],
-      "from": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/plugin.js",
-      "path": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-security",
+      "from": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-security",
       "version": "2.1.0"
     },
     "jsonp": {
@@ -388,8 +388,8 @@
         "security"
       ],
       "env": [],
-      "from": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/plugin.js",
-      "path": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-jsonp",
+      "from": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -401,8 +401,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/plugin.js",
-      "path": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-onerror",
+      "from": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-onerror",
       "version": "2.0.0"
     },
     "i18n": {
@@ -411,9 +411,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/leeway/workspace/sparkapi/sparkapi/index/config/plugin.js",
+      "from": "D:\\study\\project\\newHome\\new_index\\config\\plugin.js",
       "package": "egg-i18n",
-      "path": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-i18n",
+      "path": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -423,8 +423,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/plugin.js",
-      "path": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-watcher",
+      "from": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -434,8 +434,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/plugin.js",
-      "path": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-multipart",
+      "from": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-multipart",
       "version": "2.0.0"
     },
     "development": {
@@ -449,8 +449,8 @@
       "env": [
         "local"
       ],
-      "from": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/plugin.js",
-      "path": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-development",
+      "from": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-development",
       "version": "2.2.0"
     },
     "schedule": {
@@ -460,8 +460,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/plugin.js",
-      "path": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-schedule",
+      "from": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-schedule",
       "version": "3.3.0"
     },
     "logrotator": {
@@ -473,8 +473,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/plugin.js",
-      "path": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-logrotator",
+      "from": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-logrotator",
       "version": "3.0.2"
     },
     "static": {
@@ -484,8 +484,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/leeway/workspace/sparkapi/sparkapi/index/config/plugin.js",
-      "path": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-static",
+      "from": "D:\\study\\project\\newHome\\new_index\\config\\plugin.js",
+      "path": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-static",
       "version": "2.1.0"
     },
     "view": {
@@ -495,8 +495,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/plugin.js",
-      "path": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-view",
+      "from": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-view",
       "version": "2.1.0"
     },
     "nunjucks": {
@@ -509,8 +509,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/leeway/workspace/sparkapi/sparkapi/index/config/plugin.js",
-      "path": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-view-nunjucks",
+      "from": "D:\\study\\project\\newHome\\new_index\\config\\plugin.js",
+      "path": "D:\\study\\project\\newHome\\new_index\\node_modules\\egg-view-nunjucks",
       "version": "2.1.6"
     }
   }

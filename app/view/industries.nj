@@ -57,6 +57,11 @@
     {% include "template/contactUs.nj" %}
     {% include "template/toolPage/otherTools.nj" %}
     {% include "template/footer.nj" %}
+  <script src="/script/jquery-3.2.1.min.js"></script>
+  <script src="/script/common.js"></script>
+  {% if title == __("e_commerce") %}
+    <script src="/script/ecommerce.js"></script>
+  {% endif %}
 </body>
 
 </html>

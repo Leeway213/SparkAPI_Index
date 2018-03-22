@@ -7,7 +7,7 @@
   <meta name="keywords" content="training data services, human in the loop, outsourcing services, dataset services">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="./style/font.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./style/main.css">
+  <link rel="stylesheet" type="text/css" href="/style/main.css">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="on" http-equiv="cleartype">
   <link rel="apple-touch-icon" sizes="57x57" href="./favicons/apple-icon-57x57.png">
@@ -24,7 +24,7 @@
   <link rel="icon" type="image/png" sizes="96x96" href="./favicons/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
   <link rel="manifest" href="./favicons/manifest.json">
-  <link href="../public/style/index.css" rel="stylesheet">
+  <link href="/style/index.css" rel="stylesheet">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
@@ -63,15 +63,15 @@
     <div id="landingBlockAnimation">
       <div id="blockAnimationLeft">
         <div class="landingBlockFrame first">
-          <img src="/image/blockFrames-04.svg"> </div>
-        <div class="landingBlockFrame first second">
           <img src="/image/blockFrames-03.svg"> </div>
-        <div class="landingBlockFrame first second third">
+        <div class="landingBlockFrame first second">
           <img src="/image/blockFrames-02.svg"> </div>
-        <div class="landingBlockFrame first second third fourth">
+        <div class="landingBlockFrame first second third">
           <img src="/image/blockFrames-01.svg"> </div>
-        <div class="landingBlockFrame first second third fourth fifth">
+        <div class="landingBlockFrame first second third fourth">
           <img src="/image/blockFrames-05.svg"> </div>
+        <div class="landingBlockFrame first second third fourth fifth">
+          <img src="/image/blockFrames-04.svg"> </div>
       </div>
       <div id="blockAnimationRight">
         <div class="landingBlockFrame first second third fourth fifth">
@@ -357,7 +357,10 @@
                 </div>
               </div>
             </div>
-            <img id="landingScaleGraph" src="/image/fasterAtScale.svg">
+            <svg id="landingScaleGraph" width="240" height="202" viewBox="0 0 240 202" xmlns="http://www.w3.org/2000/svg">
+              <title>Artboard</title>
+              <path d="M0 160l21.374-24.937a6 6 0 0 1 6.453-1.787l16.07 5.356a6 6 0 0 0 6.698-2.092l19.963-26.617a6 6 0 0 1 3.813-2.318l19.258-3.21a6 6 0 0 0 3.813-2.318l20.066-26.754a6 6 0 0 1 6.48-2.16l16.444 4.796a6 6 0 0 0 6.089-1.69l19.797-21.447a6 6 0 0 1 4.16-1.925l18.379-.766a6 6 0 0 0 4.823-2.79L216 14l24-14v194a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8v-34z" fill="#FFF" fill-rule="evenodd" fill-opacity=".13"/>
+            </svg>
             <div id="landingScaleDotDiv" style="left: 5.09935px; top: 254.051px; height: 105.099px;"></div>
           </div>
           <p class="featureRowImgText">Worker expertise increases significantly with increase in project scale and so they work faster.</p>
@@ -520,10 +523,10 @@
   </div> #}
   {% include "template/contactUs.nj" %}
   {% include "template/footer.nj" %}
-  <script src="../public/script/jquery-3.2.1.min.js"></script>
-  <script src="../public/script/snap.svg-min.js"></script>
-  <script src="../public/script/common.js"></script>
-  <script src="../public/script/index.js"></script>
+  <script src="/script/jquery-3.2.1.min.js"></script>
+  <script src="/script/snap.svg-min.js"></script>
+  <script src="/script/common.js"></script>
+  <script src="/script/index.js"></script>
 </body>
 
 </html>

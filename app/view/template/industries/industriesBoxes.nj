@@ -13,7 +13,7 @@
             <img draggable="false" class="annotationSliderImg" src="/image/services/slider.svg">
 
             {% elif usecases[1] == usecase %}
-            <div class="servicesScrollLoading scrollLoading loaded">
+            <div class="servicesScrollLoading scrollLoading">
                 <div class="servicesItemImgText">
                     <p>
                         <img class="servicesTextArrow" src="/image/services/icon_results.svg">
@@ -27,7 +27,7 @@
             </div>
 
             {% elif usecases[2] == usecase %}
-            <div class="servicesScrollLoading scrollLoading loaded">
+            <div class="servicesScrollLoading scrollLoading">
                 <div class="servicesItemImgText">
                     <p>
                         <img class="servicesTextArrow" src="/image/services/icon_results.svg">
@@ -41,7 +41,7 @@
             </div>
 
             {% elif usecases[3] == usecase %}
-            <div class="servicesScrollLoading scrollLoading loaded">
+            <div class="servicesScrollLoading scrollLoading">
                 <div class="servicesItemImgText">
                     <p>
                         <img class="servicesTextArrow" src="/image/services/icon_results.svg">
