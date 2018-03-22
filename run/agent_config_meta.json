@@ -6,8 +6,8 @@
     "dir": "/home/leeway/workspace/sparkapi/sparkapi/index/config/config.default.js",
     "dynamic": "/home/leeway/workspace/sparkapi/sparkapi/index/config/config.default.js",
     "preload": "/home/leeway/workspace/sparkapi/sparkapi/index/config/config.default.js",
-    "maxAge": "/home/leeway/workspace/sparkapi/sparkapi/index/config/config.default.js",
-    "buffer": "/home/leeway/workspace/sparkapi/sparkapi/index/config/config.default.js",
+    "maxAge": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-static/config/config.prod.js",
+    "buffer": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-static/config/config.prod.js",
     "maxFiles": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-static/config/config.default.js"
   },
   "view": {
@@ -16,7 +16,7 @@
       ".nj": "/home/leeway/workspace/sparkapi/sparkapi/index/config/config.default.js"
     },
     "root": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-view/config/config.default.js",
-    "cache": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-view/config/config.local.js",
+    "cache": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-view/config/config.default.js",
     "defaultExtension": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-view/config/config.default.js"
   },
   "i18n": {
@@ -51,7 +51,7 @@
       "value": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-security/config/config.local.js",
+      "enable": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-security/config/config.default.js",
       "maxAge": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-security/config/config.default.js",
       "includeSubdomains": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-security/config/config.default.js"
     },
@@ -93,7 +93,7 @@
     "appErrorFilter": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-onerror/config/config.default.js"
   },
   "watcher": {
-    "type": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-watcher/config/config.local.js",
+    "type": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-watcher/config/config.default.js",
     "eventSources": {
       "default": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-watcher/config/config.default.js",
       "development": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-watcher/config/config.default.js"
@@ -109,13 +109,6 @@
     "files": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-multipart/config/config.default.js",
     "fileExtensions": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-multipart/config/config.default.js",
     "whitelist": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-multipart/config/config.default.js"
-  },
-  "development": {
-    "watchDirs": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-development/config/config.default.js",
-    "ignoreDirs": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-development/config/config.default.js",
-    "fastReady": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-development/config/config.default.js",
-    "reloadOnDebug": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-development/config/config.default.js",
-    "overrideDefault": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-development/config/config.default.js"
   },
   "customLogger": {
     "scheduleLogger": {
@@ -137,7 +130,7 @@
     "throwOnUndefined": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-view-nunjucks/config/config.default.js",
     "trimBlocks": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-view-nunjucks/config/config.default.js",
     "lstripBlocks": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-view-nunjucks/config/config.default.js",
-    "cache": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-view-nunjucks/config/config.local.js"
+    "cache": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-view-nunjucks/config/config.default.js"
   },
   "env": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/config.default.js",
   "name": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/config.default.js",
@@ -237,9 +230,7 @@
     "coreLogName": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/config.default.js",
     "agentLogName": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/config.default.js",
     "errorLogName": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/config.default.js",
-    "coreLogger": {
-      "consoleLevel": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/config.local.js"
-    },
+    "coreLogger": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/config.default.js",
     "allowDebugAtProd": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/config.default.js"
   },
   "httpclient": {

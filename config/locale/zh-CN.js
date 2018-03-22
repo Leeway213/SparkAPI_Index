@@ -34,11 +34,11 @@ module.exports = {
     recall:                             "Recall",
     response_time:                      "Response Time",
 
-    home_faster_at_scale_description:   "With 300,000+ skilled workers ready to work round-the-clock on Playment's mobile and web app, we can generate millions of labels in a matter of hours. As the workers do more work, they get better and Playment is able to accomplish much more work in lesser time.",
+    home_faster_at_scale_description:   "With 300,000+ skilled workers ready to work round-the-clock on SparkAPI's mobile and web app, we can generate millions of labels in a matter of hours. As the workers do more work, they get better and SparkAPI is able to accomplish much more work in lesser time.",
     home_faster_at_scale_pic_desc:      "Worker expertise increases significantly with increase in project scale and so they work faster.",
 
     home_fully_managed_description:     "You just need to share the data & labelling guidelines with our Human Intelligence (HI) team. We provide a dedicated project manager who shall prepare task instructions, train the workforce, setup workflows and ensure that contract level SLAs are delivered consistently.",
-    home_fully_managed_pic_desc:        "We offer hassle-free end to end project management to setup your process workflow on Playment.",
+    home_fully_managed_pic_desc:        "We offer hassle-free end to end project management to setup your process workflow on SparkAPI.",
     workforce_training:                 "WORKFORCE TRAINING",
     workflow_setup:                     "Workflow Setup",
     task_design:                        "Task Design",
@@ -232,7 +232,7 @@ module.exports = {
     e_commerce_slogon:      "End to end solution for all types of catalog operations",
 
     usecase_title_1_e_commerce:   "Categorize Images",
-    usecase_description_1_e_commerce: "Categorize products across thousands of categories with Playment's AI + Human Intelligence service with the highest quality output available in the market.",
+    usecase_description_1_e_commerce: "Categorize products across thousands of categories with SparkAPI's AI + Human Intelligence service with the highest quality output available in the market.",
     usecase_img_1_e_commerce:  "/image/industries/usecases/eCommerce1.1.jpg",
 
     usecase_title_2_e_commerce:   "Attribute Extraction & QC",
@@ -259,7 +259,7 @@ module.exports = {
     finance_slogon:      "Human assisted OCR to replace manual data entry operations",
 
     usecase_title_1_fintech:   "Document Verification",
-    usecase_description_1_fintech: "Onboard your customer/vendor faster with Playment AI-HI. Validate multiple customer ID documents within minutes.",
+    usecase_description_1_fintech: "Onboard your customer/vendor faster with SparkAPI AI-HI. Validate multiple customer ID documents within minutes.",
     usecase_img_1_fintech:  "/image/industries/usecases/fintech1.jpg",
 
     usecase_title_2_fintech:   "Transcribe Receipts & Invoices",

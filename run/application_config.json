@@ -91,7 +91,6 @@
         "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-i18n/config/locales",
         "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-watcher/config/locales",
         "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-multipart/config/locales",
-        "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-development/config/locales",
         "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-schedule/config/locales",
         "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-logrotator/config/locales",
         "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-static/config/locales",
@@ -106,7 +105,7 @@
       "functionName": "__"
     },
     "watcher": {
-      "type": "development",
+      "type": "default",
       "eventSources": {
         "default": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-watcher/lib/event-sources/default",
         "development": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-watcher/lib/event-sources/development"
@@ -123,17 +122,10 @@
       "fileExtensions": [],
       "whitelist": null
     },
-    "development": {
-      "watchDirs": [],
-      "ignoreDirs": [],
-      "fastReady": false,
-      "reloadOnDebug": true,
-      "overrideDefault": false
-    },
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/home/leeway/workspace/sparkapi/sparkapi/index/logs/index/egg-schedule.log"
+        "file": "/home/leeway/logs/index/egg-schedule.log"
       }
     },
     "logrotator": {
@@ -161,7 +153,7 @@
       "root": [
         "/home/leeway/workspace/sparkapi/sparkapi/index/app/view"
       ],
-      "cache": false,
+      "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
       "mapping": {
@@ -173,9 +165,9 @@
       "throwOnUndefined": false,
       "trimBlocks": false,
       "lstripBlocks": false,
-      "cache": false
+      "cache": true
     },
-    "env": "local",
+    "env": "prod",
     "name": "index",
     "keys": "<String len: 24>",
     "proxy": false,
@@ -263,21 +255,19 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/home/leeway/workspace/sparkapi/sparkapi/index/logs/index",
+      "dir": "/home/leeway/logs/index",
       "encoding": "utf8",
-      "env": "local",
+      "env": "prod",
       "level": "INFO",
       "consoleLevel": "INFO",
-      "disableConsoleAfterReady": false,
+      "disableConsoleAfterReady": true,
       "outputJSON": false,
       "buffer": true,
       "appLogName": "index-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {
-        "consoleLevel": "WARN"
-      },
+      "coreLogger": {},
       "allowDebugAtProd": true,
       "type": "application"
     },
@@ -437,21 +427,6 @@
       "from": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/plugin.js",
       "path": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-multipart",
       "version": "2.0.0"
-    },
-    "development": {
-      "enable": true,
-      "package": "egg-development",
-      "name": "development",
-      "dependencies": [
-        "watcher"
-      ],
-      "optionalDependencies": [],
-      "env": [
-        "local"
-      ],
-      "from": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg/config/plugin.js",
-      "path": "/home/leeway/workspace/sparkapi/sparkapi/index/node_modules/egg-development",
-      "version": "2.2.0"
     },
     "schedule": {
       "enable": true,
