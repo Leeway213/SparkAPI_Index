@@ -45,8 +45,6 @@
   <meta property="og:site_name" content="SparkAPI: Training data for AI, Data Enrichment Services">
   <meta name="twitter:image:alt" content="We are fully-managed solution offering training data for computer vision, machine learning and human-in-the-loop for AI at scale. Get a demo today!">
   <meta name="msvalidate.01" content="646DB3A7B77DCB1D670094DEBD762EF6">
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js" integrity="sha256-1A78rJEdiWTzco6qdn3igTBv9VupN3Q1ozZNTR4WE/Y=" crossorigin="anonymous"></script>
 </head>
 
 <body id="landing" class="">
