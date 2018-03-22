@@ -1,0 +1,44 @@
+<div id="toolsUsecasesWrapper">
+    <h2 class="toolsSectionHead">{{__('use_case')}}</h2>
+    <div id="toolsUsecases" class="widthLimitToolsSmall">
+        <div class="toolsUsecasesItem">
+            <div class="toolsUsecasesItemImg">
+                <img class="width100" draggable="false" src="/image/tools/usecases/BoundingBox_SelfDrivingCars.jpg" alt="Bounding Box Annotation tool for Object Detection - 2">
+            </div>
+            <div class="toolsUsecasesItemContent">
+                <h3>Object localization for
+                    <br>Self-driving cars</h3>
+                <p>Extensively used to train autonomous driving perception models for pedestrians, traffic signs, lane obstacles,
+                    etc.</p>
+            </div>
+        </div>
+        <div class="toolsUsecasesItem">
+            <div class="toolsUsecasesItemImg">
+                <img class="width100" draggable="false" src="/image/tools/usecases/BoundingBox_Ecommerce.jpg" alt="Bounding Box Annotation tool for Object Detection - 3">
+            </div>
+            <div class="toolsUsecasesItemContent">
+                <h3>Object Detection for e-commerce</h3>
+                <p>Used to train visual search machine learning models for recognition of various fashion accessories and furniture.</p>
+            </div>
+        </div>
+        <div class="toolsUsecasesItem">
+            <div class="toolsUsecasesItemImg">
+                <img class="width100" draggable="false" src="/image/tools/usecases/BoundingBox_Insurance.jpg" alt="Bounding Box Annotation tool for Object Detection - 4">
+            </div>
+            <div class="toolsUsecasesItemContent">
+                <h3>Damage detection for Insurance</h3>
+                <p>Identification of car damage, roof damage or safety parameters from live world images to train machine learning
+                    models that detect the degree of damage for insurance claims.</p>
+            </div>
+        </div>
+        <div class="toolsUsecasesItem">
+            <div class="toolsUsecasesItemImg">
+                <img class="width100" draggable="false" src="/image/tools/usecases/BoundingBox_DroneandRobot.jpg" alt="Bounding Box Annotation tool for Object Detection - 5">
+            </div>
+            <div class="toolsUsecasesItemContent">
+                <h3>Drone and Robot training</h3>
+                <p>Labelled images for training smart surveillance drones and robots to identify a variety of objects.</p>
+            </div>
+        </div>
+    </div>
+</div>

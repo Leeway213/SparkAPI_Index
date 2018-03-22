@@ -1,0 +1,19 @@
+<div class="widthLimitTools">
+    <div id="toolsHighlightDiv" class="toolsSkew">
+        <div class="toolsHighlightItem">
+            <img class="toolsHighlightImg" src="/image/tools/illustrations/Supports100s%20OfClasses.png" alt="">
+            <h3>{{__('supports_100s_of_classes')}}</h3>
+            <p>{{__('supports_100s_of_classes_description')}}</p>
+        </div>
+        <div class="toolsHighlightItem">
+            <img class="toolsHighlightImg" src="/image/tools/illustrations/GuaranteedPrecision.png" alt="">
+            <h3>{{__('guaranteed_precision')}}</h3>
+            <p>{{__('guaranteed_precision_description')}}</p>
+        </div>
+        <div class="toolsHighlightItem">
+            <img class="toolsHighlightImg" src="/image/tools/illustrations/GuaranteedRecall.png" alt="">
+            <h3>{{__('guaranteed_recall')}}</h3>
+            <p>{{__('guaranteed_recall_description')}}</p>
+        </div>
+    </div>
+</div>

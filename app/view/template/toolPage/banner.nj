@@ -1,0 +1,29 @@
+<div id="toolsBanner" class="tools toolsSkew">
+    <div id="bannerContents" class="widthLimit">
+        <div id="toolsBannerImg">
+            <img id="toolsBannerBackground" alt="Bounding Box Annotation tool for Object Detection - 1" src="{{toolsBannerImg}}">
+            <img id="toolsBannerImgOverlay" alt="" src="{{toolsBannerImgOverlay}}" class="revealed">
+        </div>
+        <div id="toolsBannerText">
+            <h1>{{toolsBannerTextTitle}}</h1>
+            <h3>{{toolsBannerTextDescription}}</h3>
+            <button id="toolsBannerStarted" class="servicesImageRec getStarted">
+                <span>{{__('get_start_now')}}</span>
+            </button>
+        </div>
+    </div>
+    <div id="toolsDetail" class="widthLimit">
+        <p class="toolsDetailItem">
+            <span>{{__('time_per_annotation')}}</span>
+            <br>{{time_per_annotation_value}}</p>
+        <p class="toolsDetailItem">
+            <span>{{__('cost_per_annotation')}}</span>
+            <br>{{cost_per_annotation_value}}</p>
+        <p class="toolsDetailItem">
+            <span>{{__('shape_perception')}}</span>
+            <br>{{shape_perception_value}}</p>
+        <p class="toolsDetailItem">
+            <span>{{__('spatial_perception')}}</span>
+            <br>{{spatial_perception_value}}</p>
+    </div>
+</div>

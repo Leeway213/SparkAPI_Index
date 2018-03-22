@@ -1,0 +1,160 @@
+<div id="header" class="servicesImageRec scrolled" style="position: fixed; top: 0px;">
+    <div class="widthLimit">
+      <a id="headerLogoDiv" href="./">
+        <img id="headerLogo" src="/image/logo_white.svg" alt=""> </a>
+      <ul id="headerNavigation">
+        <li>
+          <a itemprop="url" href="./adas">
+            <span class="headerItemBg">Autonomous Vehicles</span>
+          </a>
+        </li>
+        <li>
+          <a href="/image-annotation">
+            <span class="headerItemBg">Annotation Tools</span>
+          </a>
+          <div class="headerDropdown large">
+            <div class="headerDropdownInner">
+              <div class="flex">
+                <a class="headerDropdownItem" itemprop="url" href="./annotation-tool/BoundingBox">
+                  <img class="headerDropdownIcon" src="/image/Icon_BoundingBox.svg">
+                  <span class="headerDropdownText">Bounding Box</span>
+                </a>
+                <a class="headerDropdownItem" itemprop="url" href="./polygonal-segmentation-tool">
+                  <img class="headerDropdownIcon" src="/image/Icon_PolygonalAnnotation.svg">
+                  <span class="headerDropdownText">Polygonal Segmentation</span>
+                </a>
+                <a class="headerDropdownItem" itemprop="url" href="./semantic-segmentation-tool">
+                  <img class="headerDropdownIcon" src="/image/Icon_SemanticSegmentation.svg">
+                  <span class="headerDropdownText">Semantic Segmentation</span>
+                </a>
+                <a class="headerDropdownItem" itemprop="url" href="./landmark-annotation-tool">
+                  <img class="headerDropdownIcon" src="/image/Icon_PointAnnotation.svg">
+                  <span class="headerDropdownText">Landmark Annotation</span>
+                </a>
+                <a class="headerDropdownItem" itemprop="url" href="./video-annotation-tool">
+                  <img class="headerDropdownIcon" src="/image/Icon_VideoAnnotation.svg">
+                  <span class="headerDropdownText">Video Annotation</span>
+                </a>
+                <a class="headerDropdownItem" itemprop="url" href="./line-annotation-tool">
+                  <img class="headerDropdownIcon" src="/image/Icon_LineAnnotation.svg">
+                  <span class="headerDropdownText">Line Annotation</span>
+                </a>
+                <a class="headerDropdownItem" itemprop="url" href="./3d-cuboids-annotation-tool">
+                  <img class="headerDropdownIcon" src="/image/Icon_CuboidalAnnotation.svg">
+                  <span class="headerDropdownText">3D Cuboids</span>
+                </a>
+              </div>
+              <div class="headerDropdownBottom">
+                <span>Have a use-case, but can't find it here?</span>
+                <button id="headerContactUs" class="headerContactUs">Contact Us</button>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a>
+            <span class="headerItemBg">Industries</span>
+          </a>
+          <div class="headerDropdown small">
+            <div class="headerDropdownInner">
+              <a class="headerDropdownItem" itemprop="url" href="./ecommerce">E-commerce</a>
+              <a class="headerDropdownItem" itemprop="url" href="./fintech">Banking &amp; Insurance</a>
+              <a class="headerDropdownItem" itemprop="url" href="./adas">Autonomous Vehicles</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a>
+            <span class="headerItemBg">Resources</span>
+          </a>
+          <div class="headerDropdown small">
+            <div class="headerDropdownInner">
+              <a class="headerDropdownItem" itemprop="url" href="https://docs.playment.io/reference">API Docs</a>
+              <a class="headerDropdownItem" itemprop="url" href="https://blog.playment.io/">Blog</a>
+              <a class="headerDropdownItem" itemprop="url" href="https://blog.playment.io/category/success-stories">Success Stories</a>
+              <a class="headerDropdownItem" itemprop="url" href="./playment-vs-mechanical-turk">MTurk Alternative</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a class="headerContactUs">
+            <span class="headerItemBg">Contact Us</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="headerMobile" class="servicesImageRec">
+    <div id="headerMobileTop">
+      <a href="./">
+        <img id="mobileLogomark" src="/image/playment_logomark.svg" alt=""> </a>
+      <button id="headerMobileToggle">
+        <img class="cross headerToggleImg" src="/image/cross.svg" alt="">
+        <img class="menu headerToggleImg" src="/image/menu.svg" alt=""> </button>
+    </div>
+    <ul id="headerMobileNav">
+      <li class="mobileHeaderItem">
+        <a href="./adas">Autonomous Vehicles</a>
+      </li>
+      <li class="mobileHeaderItem">
+        <span>Annotation Tools</span>
+        <ul>
+          <li>
+            <a href="./bounding-box-annotation-tool">Image Annotation</a>
+          </li>
+          <li>
+            <a href="./polygonal-segmentation-tool">Polygonal Segmentation</a>
+          </li>
+          <li>
+            <a href="./semantic-segmentation-tool">Semantic Segmentation</a>
+          </li>
+          <li>
+            <a href="./landmark-annotation-tool">Landmark Annotation</a>
+          </li>
+          <li>
+            <a href="./video-annotation-tool">Video Annotation</a>
+          </li>
+          <li>
+            <a href="./line-annotation-tool">Line Annotation</a>
+          </li>
+          <li>
+            <a href="./3d-cuboids-annotation-tool">3D Cuboids</a>
+          </li>
+        </ul>
+      </li>
+      <li class="mobileHeaderItem">
+        <span>Industries</span>
+        <ul>
+          <li>
+            <a href="./ecommerce">E-Commerce</a>
+          </li>
+          <li>
+            <a href="./fintech">Banking &amp; Insurance</a>
+          </li>
+          <li>
+            <a href="./adas">Autonomous Vehicles</a>
+          </li>
+        </ul>
+      </li>
+      <li class="mobileHeaderItem">
+        <span>Resources</span>
+        <ul>
+          <li>
+            <a href="https://docs.playment.io/">API Docs</a>
+          </li>
+          <li>
+            <a href="https://blog.playment.io/">Blog</a>
+          </li>
+          <li>
+            <a href="https://blog.playment.io/category/success-stories">Success Stories</a>
+          </li>
+          <li>
+            <a href="./playment-vs-mechanical-turk">MTurk Alternative</a>
+          </li>
+        </ul>
+      </li>
+      <li class="mobileHeaderItem">
+        <a class="headerContactUs">Contact Us</a>
+      </li>
+    </ul>
+  </div>

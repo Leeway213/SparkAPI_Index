@@ -1,0 +1,32 @@
+<div id="contactBanner" class="tools">
+    <div class="widthLimitTools">
+        <div>
+            <h2>{{__('contact_us')}}</h2>
+            <p>{{__('learn_more')}}</p>
+        </div>
+        <form id="contactBannerForm">
+            <input type="email" name="contactEmail" required="" id="contactEmail" class="@@cssClass" placeholder="{{__('enter_email')}}">
+            <button id="contactBannerButton">
+                <span>{{__('contact_us')}}</span>
+            </button>
+        </form>
+    </div>
+    <div id="clienteleWrapper" class="tools">
+        <div class="clientele widthLimit">
+            <img src="/image/clientele_Driveai(1).svg" alt="">
+            <img src="/image/clientele_Cyngn(1).svg" alt="">
+            <div></div>
+            <img src="/image/clientele_Starsky(1).svg" alt="">
+            <div></div>
+            <img src="/image/clientele_Illinois(1).svg" alt="">
+            <img src="/image/clientele_Alibaba(2).svg" alt=""> </div>
+        <div class="clientele widthLimit">
+            <img src="/image/clientele_Agoda(1).svg" alt="">
+            <img src="/image/clientele_Flipkart(1).svg" alt="">
+            <div></div>
+            <img src="/image/clientele_Paytm(1).svg" alt="">
+            <div></div>
+            <img src="/image/clientele_Cortexica(1).svg" alt="">
+            <img src="/image/clientele_Curalate(1).svg" alt=""> </div>
+    </div>
+</div>

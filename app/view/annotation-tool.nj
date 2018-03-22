@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://playment.io/bounding-box-annotation-tool/ -->
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Bounding Box Annotation tool for Object Detection | Playment</title>
+  <meta name="description" content="We deliver high quality 2D bounding box annotations for object detection and localization in images and videos. Applied for wide range of use cases like self-driving cars, eCommerce, insurance, drones &amp; robot training etc. We supports 100s of classes with guaranteed precision and recall.">
+  <meta name="keywords" content="2D bounding box annotations, bounding box annotation tool, bounding box for object detection, bounding box computer vision, bounding box labeling, image annotation">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  {# <link href="/style/css" rel="stylesheet"> #}
+  <link rel="stylesheet" type="text/css" href="/style/tools.css">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="on" http-equiv="cleartype">
+  <link rel="apple-touch-icon" sizes="57x57" href="https://playment.io/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="https://playment.io/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="https://playment.io/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://playment.io/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://playment.io/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://playment.io/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://playment.io/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://playment.io/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://playment.io/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="https://playment.io/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://playment.io/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="https://playment.io/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://playment.io/favicons/favicon-16x16.png">
+  <link rel="manifest" href="https://playment.io/favicons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Bounding Box Annotation tool for Object Detection | Playment">
+  <meta property="og:description" content="We deliver high quality 2D bounding box annotations for object detection and localization in images and videos. Applied for wide range of use cases like self-driving cars, eCommerce, insurance, drones &amp; robot training etc. We supports 100s of classes with guaranteed precision and recall.">
+  <meta property="og:image" content="https://playment.io/favicons/ogBoundingBox.jpg">
+  <meta property="og:url" content="https://playment.io">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@PlaymentHQ">
+  <meta name="twitter:creator" content="@PlaymentHQ">
+  <meta name="twitter:title" content="Bounding Box Annotation tool for Object Detection | Playment">
+  <meta name="twitter:description" content="We deliver high quality 2D bounding box annotations for object detection and localization in images and videos. Applied for wide range of use cases like self-driving cars, eCommerce, insurance, drones &amp; robot training etc. We supports 100s of classes with guaranteed precision and recall.">
+  <meta name="twitter:image" content="https://playment.io/favicons/ogBoundingBox.jpg">
+  <meta content="true" name="HandheldFriendly">
+  <meta content="320" name="MobileOptimized">
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
+  <meta property="og:site_name" content="Bounding Box Annotation tool for Object Detection | Playment">
+  <meta name="twitter:image:alt" content="We deliver high quality 2D bounding box annotations for object detection and localization in images and videos. Applied for wide range of use cases like self-driving cars, eCommerce, insurance, drones &amp; robot training etc. We supports 100s of classes with guaranteed precision and recall.">
+  <meta name="msvalidate.01" content="646DB3A7B77DCB1D670094DEBD762EF6">
+  <link rel="canonical" href="https://playment.io/image-annotation">
+</head>
+
+<body id="toolsBody">
+  {% include "template/header.nj" %}
+  {% include "template/toolPage/banner.nj" %}
+  {% include "template/toolPage/withLimitTools.nj" %}
+  {% include "template/toolPage/toolsUsecase.nj" %}
+  {% include "template/toolPage/toolsExamples.nj" %}
+  {% include "template/toolPage/toolsWhy.nj" %}
+  {% include "template/contactUs.nj" %}
+  {% include "template/contactModal.nj" %}
+  {% include "template/toolPage/otherTools.nj" %}
+  {% include "template/footer.nj" %}
+  {# <div id="toolsBanner" class="tools toolsSkew">
+    <div id="bannerContents" class="widthLimit">
+      <div id="toolsBannerImg">
+        <img id="toolsBannerBackground" alt="Bounding Box Annotation tool for Object Detection - 1" src="./image/Bounding-Box.png">
+        <img id="toolsBannerImgOverlay" alt="" src="./image/Bounding-Box-Anno.png" class="revealed">
+      </div>
+      <div id="toolsBannerText">
+        <h1>2D Bounding Boxes</h1>
+        <h3>For object detection and localization in images and videos</h3>
+        <button id="toolsBannerStarted" class="servicesImageRec getStarted">
+          <span>Get Started Now</span>
+        </button>
+      </div>
+    </div>
+    <div id="toolsDetail" class="widthLimit">
+      <p class="toolsDetailItem">
+        <span>Time per annotation</span>
+        <br>Lowest</p>
+      <p class="toolsDetailItem">
+        <span>Cost per annotation</span>
+        <br>Least Expensive</p>
+      <p class="toolsDetailItem">
+        <span>Shape perception</span>
+        <br>Absent</p>
+      <p class="toolsDetailItem">
+        <span>Spatial perception</span>
+        <br>Present</p>
+    </div>
+  </div> #}
+  {# <div class="widthLimitTools">
+    <div id="toolsHighlightDiv" class="toolsSkew">
+      <div class="toolsHighlightItem">
+        <img class="toolsHighlightImg" src="./image/Supports100s OfClasses.png" alt="">
+        <h3>Supports 100s of classes</h3>
+        <p>Well-designed tools to support large number of classes of interest.</p>
+      </div>
+      <div class="toolsHighlightItem">
+        <img class="toolsHighlightImg" src="./image/GuaranteedPrecision.png" alt="">
+        <h3>Guaranteed Precision</h3>
+        <p>Consensus models to verify each of the annotations by multiple users for label accuracy &amp; annotation perfection.</p>
+      </div>
+      <div class="toolsHighlightItem">
+        <img class="toolsHighlightImg" src="./image/GuaranteedRecall.png" alt="">
+        <h3>Guaranteed Recall</h3>
+        <p>Recursive checks from multiple users to detect all the objects of interest in the frame.</p>
+      </div>
+    </div>
+  </div> #}
+  {# <div id="toolsUsecasesWrapper">
+    <h2 class="toolsSectionHead">Use Cases</h2>
+    <div id="toolsUsecases" class="widthLimitToolsSmall">
+      <div class="toolsUsecasesItem">
+        <div class="toolsUsecasesItemImg">
+          <img class="width100" draggable="false" src="./image/BoundingBox_SelfDrivingCars.jpg" alt="Bounding Box Annotation tool for Object Detection - 2">
+        </div>
+        <div class="toolsUsecasesItemContent">
+          <h3>Object localization for
+            <br>Self-driving cars</h3>
+          <p>Extensively used to train autonomous driving perception models for pedestrians, traffic signs, lane obstacles,
+            etc.</p>
+        </div>
+      </div>
+      <div class="toolsUsecasesItem">
+        <div class="toolsUsecasesItemImg">
+          <img class="width100" draggable="false" src="./image/BoundingBox_Ecommerce.jpg" alt="Bounding Box Annotation tool for Object Detection - 3">
+        </div>
+        <div class="toolsUsecasesItemContent">
+          <h3>Object Detection for e-commerce</h3>
+          <p>Used to train visual search machine learning models for recognition of various fashion accessories and furniture.</p>
+        </div>
+      </div>
+      <div class="toolsUsecasesItem">
+        <div class="toolsUsecasesItemImg">
+          <img class="width100" draggable="false" src="./image/BoundingBox_Insurance.jpg" alt="Bounding Box Annotation tool for Object Detection - 4">
+        </div>
+        <div class="toolsUsecasesItemContent">
+          <h3>Damage detection for Insurance</h3>
+          <p>Identification of car damage, roof damage or safety parameters from live world images to train machine learning
+            models that detect the degree of damage for insurance claims.</p>
+        </div>
+      </div>
+      <div class="toolsUsecasesItem">
+        <div class="toolsUsecasesItemImg">
+          <img class="width100" draggable="false" src="./image/BoundingBox_DroneandRobot.jpg" alt="Bounding Box Annotation tool for Object Detection - 5">
+        </div>
+        <div class="toolsUsecasesItemContent">
+          <h3>Drone and Robot training</h3>
+          <p>Labelled images for training smart surveillance drones and robots to identify a variety of objects.</p>
+        </div>
+      </div>
+    </div>
+  </div> #}
+  {# <div id="toolsExamples" class="pixel toolsSkew">
+    <div class="widthLimitTools">
+      <h2 class="toolsSectionHead">All kinds of complexities are handled</h2>
+      <div id="toolsExamplesContents" class="widthLimitTools">
+        <div id="toolsExamplesImg">
+          <img class="toolsExamplesImgItem shapes" src="./image/MultipleShapes.jpg" alt="" style="height: 480.733px;">
+          <img class="toolsExamplesImgItem classes" src="./image/LotsOfClasses.jpg" alt="" style="height: 480.733px;">
+          <img class="toolsExamplesImgItem pixel" src="./image/PixelPerfectAnnotation.jpg" alt="" style="height: 480.733px;">
+          <img class="toolsExamplesImgItem country" src="./image/CountrySpecificThings.jpg" alt="" style="height: 480.733px;">
+        </div>
+        <div id="toolsExamplesText">
+          <div class="shapes toolsExamplesItem">
+            <div class="toolsExamplesItemFlex">
+              <img class="toolsExamplesIcon" src="./image/Icon_MultipleShapes.svg">
+              <div>
+                <h3>Multiple Shapes</h3>
+                <p>All shape annotations on single media</p>
+              </div>
+            </div>
+            <img class="toolsExamplesMobileImg" src="./image/MultipleShapes.jpg" alt="">
+          </div>
+          <div class="classes toolsExamplesItem">
+            <div class="toolsExamplesItemFlex">
+              <img class="toolsExamplesIcon" src="./image/Icon_Lots of Classes.svg">
+              <div>
+                <h3>Lots of Classes</h3>
+                <p>Support for hundreds of classes</p>
+              </div>
+            </div>
+            <img class="toolsExamplesMobileImg" src="./image/LotsOfClasses.jpg" alt="">
+          </div>
+          <div class="pixel toolsExamplesItem">
+            <div class="toolsExamplesItemFlex">
+              <img class="toolsExamplesIcon" src="./image/Icon_PixelPerfectAnnotation.svg">
+              <div>
+                <h3>Pixel Perfect Annotation</h3>
+                <p>Guaranteed highly accurate results</p>
+              </div>
+            </div>
+            <img class="toolsExamplesMobileImg" src="./image/PixelPerfectAnnotation.jpg" alt="">
+          </div>
+          <div class="country toolsExamplesItem">
+            <div class="toolsExamplesItemFlex">
+              <img class="toolsExamplesIcon" src="./image/Icon_CountrySpecific.svg">
+              <div>
+                <h3>Country Specific</h3>
+                <p>Contexual information from the data</p>
+              </div>
+            </div>
+            <img class="toolsExamplesMobileImg" src="./image/CountrySpecificThings.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> #}
+  {# <div id="toolsWhy">
+    <h2 class="toolsSectionHead">Why Playment</h2>
+    <div class="widthLimitTools">
+      <div class="toolsWhyItem">
+        <img class="toolsWhyImg" src="./image/AssuredQuality.png" alt="">
+        <h3>Assured Quality</h3>
+        <p>Guaranteed accuracy. We know you’d have it no other way.</p>
+      </div>
+      <div class="toolsWhyItem">
+        <img class="toolsWhyImg" src="./image/FullyManaged.png" alt="">
+        <h3>Fully Managed</h3>
+        <p>Use our API to get responses within minutes.</p>
+      </div>
+      <div class="toolsWhyItem">
+        <img class="toolsWhyImg" src="./image/FasterAtScale.png" alt="">
+        <h3>Faster at Scale</h3>
+        <p>We do the heavy lifting so that you can relax.</p>
+      </div>
+    </div>
+  </div> #}
+  {# <div id="contactBanner" class="tools">
+    <div class="widthLimitTools">
+      <div>
+        <h2>Contact Us</h2>
+        <p>To learn more about Playment</p>
+      </div>
+      <form id="contactBannerForm">
+        <input type="email" name="contactEmail" required="" id="contactEmail" class="@@cssClass" placeholder="Enter your work email address">
+        <button id="contactBannerButton">
+          <span>Contact Us</span>
+        </button>
+      </form>
+    </div>
+    <div id="clienteleWrapper" class="tools">
+      <div class="clientele widthLimit">
+        <img src="./image/clientele_Driveai.svg" alt="">
+        <img src="./image/clientele_Cyngn.svg" alt="">
+        <div></div>
+        <img src="./image/clientele_Starsky.svg" alt="">
+        <div></div>
+        <img src="./image/clientele_Illinois.svg" alt="">
+        <img src="./image/clientele_Alibaba.svg" alt="">
+      </div>
+      <div class="clientele widthLimit">
+        <img src="./image/clientele_Agoda.svg" alt="">
+        <img src="./image/clientele_Flipkart.svg" alt="">
+        <div></div>
+        <img src="./image/clientele_Paytm.svg" alt="">
+        <div></div>
+        <img src="./image/clientele_Cortexica.svg" alt="">
+        <img src="./image/clientele_Curalate.svg" alt="">
+      </div>
+    </div>
+  </div> #}
+  {# <div id="contactModal">
+    <div id="contactModalInner">
+      <h2 id="contactModalHeading">Contact Us</h2>
+      <div id="contactModalFlex">
+        <div id="contactmodalInfo">
+          <p>This will help our experts to reach you faster.</p>
+        </div>
+        <form id="contactModalForm">
+          <input class="contactFlexItem" type="text" name="name" placeholder="Name">
+          <input class="contactFlexItem" type="email" name="email" id="contactModalEmail" placeholder="Work email address"
+            required="">
+          <input class="contactFlexItem" type="text" name="mobile_number" placeholder="Phone number with country code" required="">
+          <textarea class="contactFlexItem" placeholder="Let us know about your project requirements" name="message" required=""></textarea>
+          <button id="contactFormSubmit">Submit</button>
+        </form>
+      </div>
+      <p>Great companies choose Playment</p>
+      <div id="contactClientele" class="widthLimit">
+        <img src="./image/clientele_Alibaba(1).svg" alt="Alibaba">
+        <img src="./image/clientele_Starsky(1).svg" alt="Starsky">
+        <img src="./image/clientele_Driveai(1).svg" alt="Driveai">
+        <div></div>
+        <img src="./image/clientele_Agoda(1).svg" alt="Agoda">
+        <img src="./image/clientele_Cortexica(1).svg" alt="Cortexica">
+        <img src="./image/clientele_Cyngn(1).svg" alt="Cyngn">
+      </div>
+    </div>
+  </div> #}
+  {# <div id="otherTools" class="toolsSkew">
+    <h2 class="toolsSectionHead">Other Tools We have</h2>
+    <div id="otherToolsFlex" class="widthLimit">
+      <div class="otherToolsItem">
+        <a href="https://playment.io/bounding-box-annotation-tool">
+          <img class="otherToolsIcon" src="./image/Icon_BoundingBox.svg">
+          <span>Bounding Box</span>
+        </a>
+        <a href="https://playment.io/landmark-annotation-tool">
+          <img class="otherToolsIcon" src="./image/Icon_PointAnnotation.svg">
+          <span>Landmark Annotation</span>
+        </a>
+      </div>
+      <div class="otherToolsItem">
+        <a href="https://playment.io/semantic-segmentation-tool">
+          <img class="otherToolsIcon" src="./image/Icon_SemanticSegmentation.svg">
+          <span>Semantic Segmentation</span>
+        </a>
+        <a href="https://playment.io/polygonal-segmentation-tool">
+          <img class="otherToolsIcon" src="./image/Icon_PolygonalAnnotation.svg">
+          <span>Polygonal Annotation</span>
+        </a>
+      </div>
+      <div id="otherToolsBreak"></div>
+      <div class="otherToolsItem">
+        <a href="https://playment.io/3d-cuboids-annotation-tool">
+          <img class="otherToolsIcon" src="./image/Icon_CuboidalAnnotation.svg">
+          <span>Cuboidal Annotation</span>
+        </a>
+        <a href="https://playment.io/video-annotation-tool">
+          <img class="otherToolsIcon" src="./image/Icon_VideoAnnotation.svg">
+          <span>Video Annotation</span>
+        </a>
+      </div>
+      <div class="otherToolsItem">
+        <a href="https://playment.io/line-annotation-tool">
+          <img class="otherToolsIcon" src="./image/Icon_LineAnnotation.svg">
+          <span>Line Annotation</span>
+        </a>
+        <a class="notReleased">
+          <img class="otherToolsIcon" src="./image/Icon_LidarAnnotation.svg">
+          <span>Lidar (Coming soon)</span>
+        </a>
+      </div>
+    </div>
+  </div> #}
+  {# <div id="footer" class="tools">
+    <div id="footerLinks" class="widthLimitTools">
+      <div class="footerColumn">
+        <h3>Compare</h3>
+        <p>
+          <a href="https://playment.io/playment-vs-mechanical-turk">vs MTurk</a>
+          <br>
+          <a href="https://playment.io/playment-vs-crowdflower">vs Crowdflower</a>
+          <br>
+          <a href="https://playment.io/playment-vs-bpo">vs BPOs</a>
+          <br>
+        </p>
+      </div>
+      <div class="footerColumn">
+        <h3>Company</h3>
+        <p>
+          <a rel="nofollow" target="_blank" href="http://playment.applytojob.com/apply">Careers</a>
+          <br>
+        </p>
+      </div>
+      <div class="footerColumn">
+        <h3>Resources</h3>
+        <p>
+          <a rel="nofollow" target="_blank" href="https://docs.playment.io/reference">API Docs</a>
+          <br>
+          <a rel="nofollow" target="_blank" href="https://blog.playment.io/">Blog</a>
+          <br>
+          <a rel="nofollow" target="_blank" href="https://blog.playment.io/category/success-stories/">Success Stories</a>
+        </p>
+      </div>
+      <div class="footerColumn" id="footerContact">
+        <h3>Contact Us</h3>
+        <p>
+          <a href="mailto:hello@playment.io?Subject=Enquiry" target="_top">hello@playment.io</a>
+          <br>345 Spear St, San Francisco, CA
+          <br>
+          <a rel="nofollow" href="https://twitter.com/playmentHQ" class="footerSocial" target="_blank">
+            <img src="./image/Twitter.svg">
+          </a>
+          <a rel="nofollow" href="https://www.facebook.com/playmentHQ/" class="footerSocial" target="_blank">
+            <img src="./image/Facebook.svg">
+          </a>
+          <a rel="nofollow" href="https://www.linkedin.com/company/6611939/" class="footerSocial" target="_blank">
+            <img src="./image/LinkedIn.svg">
+          </a>
+          <br>© Playment 2018</p>
+      </div>
+    </div>
+  </div> #}
+</body>
+
+</html>

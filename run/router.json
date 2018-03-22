@@ -1,0 +1,52 @@
+[
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/",
+    "regexp": "/^(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/adas",
+    "regexp": "/^\\/adas(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "toolType",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/annotation-tool/:toolType",
+    "regexp": "/^\\/annotation-tool\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  }
+]

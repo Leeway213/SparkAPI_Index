@@ -1,0 +1,57 @@
+<div id="toolsExamples" class="country toolsSkew">
+    <div class="widthLimitTools">
+        <h2 class="toolsSectionHead">{{__('all_kinds_of_complexities')}}</h2>
+        <div id="toolsExamplesContents" class="widthLimitTools">
+            <div id="toolsExamplesImg">
+                <img class="toolsExamplesImgItem shapes" src="/image/tools/datasets/MultipleShapes.jpg" alt="" style="height: 480.733px;">
+                <img class="toolsExamplesImgItem classes" src="/image/tools/datasets/LotsOfClasses.jpg" alt="" style="height: 480.733px;">
+                <img class="toolsExamplesImgItem pixel" src="/image/tools/datasets/PixelPerfectAnnotation.jpg" alt=""
+                    style="height: 480.733px;">
+                <img class="toolsExamplesImgItem country" src="/image/tools/datasets/CountrySpecificThings.jpg" alt=""
+                    style="height: 480.733px;">
+            </div>
+            <div id="toolsExamplesText">
+                <div class="shapes toolsExamplesItem">
+                    <div class="toolsExamplesItemFlex">
+                        <img class="toolsExamplesIcon" src="/image/tools/icons/Icon_MultipleShapes.svg">
+                        <div>
+                            <h3>{{__('multiple_shapes')}}</h3>
+                            <p>{{__('multiple_shapes_description')}}</p>
+                        </div>
+                    </div>
+                    <img class="toolsExamplesMobileImg" src="/image/tools/datasets/MultipleShapes.jpg" alt="">
+                </div>
+                <div class="classes toolsExamplesItem">
+                    <div class="toolsExamplesItemFlex">
+                        <img class="toolsExamplesIcon" src="/image/tools/icons/Icon_Lots%20of%20Classes.svg">
+                        <div>
+                            <h3>{{__('lots_of_classes')}}</h3>
+                            <p>{{__('lots_of_classes_description')}}</p>
+                        </div>
+                    </div>
+                    <img class="toolsExamplesMobileImg" src="/image/tools/datasets/LotsOfClasses.jpg" alt="">
+                </div>
+                <div class="pixel toolsExamplesItem">
+                    <div class="toolsExamplesItemFlex">
+                        <img class="toolsExamplesIcon" src="/image/tools/icons/Icon_PixelPerfectAnnotation.svg">
+                        <div>
+                            <h3>{{__('pixel_perfect_annotation')}}</h3>
+                            <p>{{__('pixel_perfect_annotation_description')}}</p>
+                        </div>
+                    </div>
+                    <img class="toolsExamplesMobileImg" src="/image/tools/datasets/PixelPerfectAnnotation.jpg" alt="">
+                </div>
+                <div class="country toolsExamplesItem">
+                    <div class="toolsExamplesItemFlex">
+                        <img class="toolsExamplesIcon" src="/image/tools/icons/Icon_CountrySpecific.svg">
+                        <div>
+                            <h3>{{__('country_specific')}}</h3>
+                            <p>{{__('country_specific_description')}}</p>
+                        </div>
+                    </div>
+                    <img class="toolsExamplesMobileImg" src="/image/tools/datasets/CountrySpecificThings.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

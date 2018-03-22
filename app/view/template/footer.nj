@@ -1,0 +1,44 @@
+<div id="footer" class="tools">
+    <div id="footerLinks" class="widthLimitTools">
+      <div class="footerColumn">
+        <h3>Compare</h3>
+        <p>
+          <a href="./playment-vs-mechanical-turk">vs MTurk</a>
+          <br>
+          <a href="./playment-vs-crowdflower">vs Crowdflower</a>
+          <br>
+          <a href="./playment-vs-bpo">vs BPOs</a>
+          <br> </p>
+      </div>
+      <div class="footerColumn">
+        <h3>Company</h3>
+        <p>
+          <a rel="nofollow" target="_blank" href="http://playment.applytojob.com/apply">Careers</a>
+          <br> </p>
+      </div>
+      <div class="footerColumn">
+        <h3>Resources</h3>
+        <p>
+          <a rel="nofollow" target="_blank" href="https://docs.playment.io/reference">API Docs</a>
+          <br>
+          <a rel="nofollow" target="_blank" href="https://blog.playment.io/">Blog</a>
+          <br>
+          <a rel="nofollow" target="_blank" href="https://blog.playment.io/category/success-stories/">Success Stories</a>
+        </p>
+      </div>
+      <div class="footerColumn" id="footerContact">
+        <h3>Contact Us</h3>
+        <p>
+          <a href="mailto:hello@playment.io?Subject=Enquiry" target="_top">hello@playment.io</a>
+          <br>345 Spear St, San Francisco, CA
+          <br>
+          <a rel="nofollow" href="https://twitter.com/playmentHQ" class="footerSocial" target="_blank">
+            <img src="/image/Twitter.svg"> </a>
+          <a rel="nofollow" href="https://www.facebook.com/playmentHQ/" class="footerSocial" target="_blank">
+            <img src="/image/Facebook.svg"> </a>
+          <a rel="nofollow" href="https://www.linkedin.com/company/6611939/" class="footerSocial" target="_blank">
+            <img src="/image/LinkedIn.svg"> </a>
+          <br>© SparkAPI 2018</p>
+      </div>
+    </div>
+  </div>

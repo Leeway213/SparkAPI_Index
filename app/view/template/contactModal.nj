@@ -1,0 +1,26 @@
+<div id="contactModal" style="display: none;">
+    <div id="contactModalInner">
+      <h2 id="contactModalHeading">Contact Us</h2>
+      <div id="contactModalFlex">
+        <div id="contactmodalInfo">
+          <p>This will help our experts to reach you faster.</p>
+        </div>
+        <form id="contactModalForm">
+          <input class="contactFlexItem" type="text" name="name" placeholder="Name">
+          <input class="contactFlexItem" type="email" name="email" id="contactModalEmail" placeholder="Work email address" required="">
+          <input class="contactFlexItem" type="text" name="mobile_number" placeholder="Phone number with country code" required="">
+          <textarea class="contactFlexItem" placeholder="Let us know about your project requirements" name="message" required=""></textarea>
+          <button id="contactFormSubmit">Submit</button>
+        </form>
+      </div>
+      <p>Great companies choose Playment</p>
+      <div id="contactClientele" class="widthLimit">
+        <img src="/image/clientele_Alibaba(1).svg" alt="Alibaba">
+        <img src="/image/clientele_Starsky.svg" alt="Starsky">
+        <img src="/image/clientele_Driveai.svg" alt="Driveai">
+        <div></div>
+        <img src="/image/clientele_Agoda.svg" alt="Agoda">
+        <img src="/image/clientele_Cortexica.svg" alt="Cortexica">
+        <img src="/image/clientele_Cyngn.svg" alt="Cyngn"> </div>
+    </div>
+  </div>
