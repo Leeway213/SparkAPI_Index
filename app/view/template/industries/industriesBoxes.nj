@@ -5,6 +5,60 @@
     <div class="industriesBoxItem">
         <div class="industriesBoxImage imageAnnotation">
             <img draggable="false" class="annotationBackdrop" src="{{usecase.img}}" alt="Bounding boxes">
+
+            {% if title == "E-commerce" %}
+
+            {% if usecases[0] == usecase %}
+            <div class="annotationOverlayClip"><img draggable="false" class="annotationOverlay" src="/image/industries/usecases/eCommerce1.2.png"></div>
+            <img draggable="false" class="annotationSliderImg" src="/image/services/slider.svg">
+
+            {% elif usecases[1] == usecase %}
+            <div class="servicesScrollLoading scrollLoading loaded">
+                <div class="servicesItemImgText">
+                    <p>
+                        <img class="servicesTextArrow" src="/image/services/icon_results.svg">
+                        Apple, Macbook, 13”, 256 GB SDD, 1.1 GHz Intel Core i5, 3.2 pounds
+                    </p>
+                    <p class="loadingText">
+                        <img class="loaderIcon" src="/image/loader.svg">
+                        {{__('processing')}}
+                    </p>
+                </div>
+            </div>
+
+            {% elif usecases[2] == usecase %}
+            <div class="servicesScrollLoading scrollLoading loaded">
+                <div class="servicesItemImgText">
+                    <p>
+                        <img class="servicesTextArrow" src="/image/services/icon_results.svg">
+                        {{__('color_mismatch')}}
+                    </p>
+                    <p class="loadingText">
+                        <img class="loaderIcon" src="/image/loader.svg">
+                        {{__('processing')}}
+                    </p>
+                </div>
+            </div>
+
+            {% elif usecases[3] == usecase %}
+            <div class="servicesScrollLoading scrollLoading loaded">
+                <div class="servicesItemImgText">
+                    <p>
+                        <img class="servicesTextArrow" src="/image/services/icon_results.svg">
+                        {{__('microsoft')}} <img class="servicesTextBreadcrumb" src="/image/services/icon_chevron.svg"> 
+                        {{__('xbox_controller')}} <img class="servicesTextBreadcrumb" src="/image/services/icon_chevron.svg"> 
+                        {{__('product')}}
+                    </p>
+                    <p class="loadingText">
+                        <img class="loaderIcon" src="/image/loader.svg">
+                        {{__('processing')}}
+                    </p>
+                </div>
+            </div>
+
+            {% endif %}
+
+            {% endif %}
         </div>
         <div class="industriesBoxText">
             <h3>{{usecase.title}}</h3>

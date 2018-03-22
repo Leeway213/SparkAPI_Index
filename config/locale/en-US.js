@@ -196,6 +196,12 @@ module.exports = {
     usecase_description_4_e_commerce: "Moderate user generated content to maintain brand safety by assuring hygiene in product reviews, customer forums, app store reviews & social media posts.",
     usecase_img_4_e_commerce:  "/image/industries/usecases/eCommerce4.jpg",
 
+    color_mismatch:             "Color Mismatch",
+    processing:                 "Processing...",
+    microsoft:                  "Microsoft",
+    xbox_controller:            "Xbox Controller",
+    product:                    "Product",
+
 
     // Banking, Finance and Insurance
     finance_title:    "Banking, Finance and Insurance",

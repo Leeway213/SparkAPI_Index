@@ -63,7 +63,7 @@
             </div>
           </div>
         </li>
-        <li>
+        {# <li>
           <a>
             <span class="headerItemBg">Resources</span>
           </a>
@@ -75,7 +75,7 @@
               <a class="headerDropdownItem" itemprop="url" href="./playment-vs-mechanical-turk">MTurk Alternative</a>
             </div>
           </div>
-        </li>
+        </li> #}
         <li>
           <a class="headerContactUs">
             <span class="headerItemBg">Contact Us</span>
