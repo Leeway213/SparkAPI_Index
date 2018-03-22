@@ -6,7 +6,7 @@
         <div class="industriesBoxImage imageAnnotation">
             <img draggable="false" class="annotationBackdrop" src="{{usecase.img}}" alt="Bounding boxes">
 
-            {% if title == "E-commerce" %}
+            {% if title == __("e_commerce") %}
 
             {% if usecases[0] == usecase %}
             <div class="annotationOverlayClip"><img draggable="false" class="annotationOverlay" src="/image/industries/usecases/eCommerce1.2.png"></div>

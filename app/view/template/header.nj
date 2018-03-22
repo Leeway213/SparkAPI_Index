@@ -5,61 +5,61 @@
       <ul id="headerNavigation">
         <li>
           <a itemprop="url" href="/industries/autonomous_vehicles">
-            <span class="headerItemBg">Autonomous Vehicles</span>
+            <span class="headerItemBg">{{__('autonomous_vehicles')}}</span>
           </a>
         </li>
         <li>
           <a>
-            <span class="headerItemBg">Annotation Tools</span>
+            <span class="headerItemBg">{{__('annotation_tools')}}</span>
           </a>
           <div class="headerDropdown large">
             <div class="headerDropdownInner">
               <div class="flex">
                 <a class="headerDropdownItem" itemprop="url" href="/annotation-tool/boundingbox">
                   <img class="headerDropdownIcon" src="/image/Icon_BoundingBox.svg">
-                  <span class="headerDropdownText">Bounding Box</span>
+                  <span class="headerDropdownText">{{__('bounding_box')}}</span>
                 </a>
                 <a class="headerDropdownItem" itemprop="url" href="/annotation-tool/polygon">
                   <img class="headerDropdownIcon" src="/image/Icon_PolygonalAnnotation.svg">
-                  <span class="headerDropdownText">Polygonal Segmentation</span>
+                  <span class="headerDropdownText">{{__('polygonal_segmentation')}}</span>
                 </a>
                 <a class="headerDropdownItem" itemprop="url" href="/annotation-tool/segmentation">
                   <img class="headerDropdownIcon" src="/image/Icon_SemanticSegmentation.svg">
-                  <span class="headerDropdownText">Semantic Segmentation</span>
+                  <span class="headerDropdownText">{{__('semantic_segmentation')}}</span>
                 </a>
                 <a class="headerDropdownItem" itemprop="url" href="/annotation-tool/landmark">
                   <img class="headerDropdownIcon" src="/image/Icon_PointAnnotation.svg">
-                  <span class="headerDropdownText">Landmark Annotation</span>
+                  <span class="headerDropdownText">{{__('landmark_annotation')}}</span>
                 </a>
                 <a class="headerDropdownItem" itemprop="url" href="./video-annotation-tool">
                   <img class="headerDropdownIcon" src="/image/Icon_VideoAnnotation.svg">
-                  <span class="headerDropdownText">Video Annotation</span>
+                  <span class="headerDropdownText">{{__('video_annotation')}}</span>
                 </a>
                 <a class="headerDropdownItem" itemprop="url" href="/annotation-tool/line">
                   <img class="headerDropdownIcon" src="/image/Icon_LineAnnotation.svg">
-                  <span class="headerDropdownText">Line Annotation</span>
+                  <span class="headerDropdownText">{{__('line_annotation')}}</span>
                 </a>
                 <a class="headerDropdownItem" itemprop="url" href="/annotation-tool/3dcuboid">
                   <img class="headerDropdownIcon" src="/image/Icon_CuboidalAnnotation.svg">
-                  <span class="headerDropdownText">3D Cuboids</span>
+                  <span class="headerDropdownText">{{__('cuboids')}}</span>
                 </a>
               </div>
               <div class="headerDropdownBottom">
-                <span>Have a use-case, but can't find it here?</span>
-                <button id="headerContactUs" class="headerContactUs">Contact Us</button>
+                <span>{{__('not_found')}}</span>
+                <button id="headerContactUs" class="headerContactUs">{{__('contact_us')}}</button>
               </div>
             </div>
           </div>
         </li>
         <li>
           <a>
-            <span class="headerItemBg">Industries</span>
+            <span class="headerItemBg">{{__('industries')}}</span>
           </a>
           <div class="headerDropdown small">
             <div class="headerDropdownInner">
-              <a class="headerDropdownItem" itemprop="url" href="/industries/e_commerce">E-commerce</a>
-              <a class="headerDropdownItem" itemprop="url" href="/industries/fintech">Banking &amp; Insurance</a>
-              <a class="headerDropdownItem" itemprop="url" href="/industries/autonomous_vehicles">Autonomous Vehicles</a>
+              <a class="headerDropdownItem" itemprop="url" href="/industries/e_commerce">{{__('e_commerce')}}</a>
+              <a class="headerDropdownItem" itemprop="url" href="/industries/fintech">{{__('banking_insurance')}}</a>
+              <a class="headerDropdownItem" itemprop="url" href="/industries/autonomous_vehicles">{{__('autonomous_vehicles')}}</a>
             </div>
           </div>
         </li>
@@ -78,7 +78,7 @@
         </li> #}
         <li>
           <a class="headerContactUs">
-            <span class="headerItemBg">Contact Us</span>
+            <span class="headerItemBg">{{__('contact_us')}}</span>
           </a>
         </li>
       </ul>
@@ -94,67 +94,50 @@
     </div>
     <ul id="headerMobileNav">
       <li class="mobileHeaderItem">
-        <a href="./adas">Autonomous Vehicles</a>
+        <a href="/industries/autonomous_vehicles">{{__('autonomous_vehicles')}}</a>
       </li>
       <li class="mobileHeaderItem">
-        <span>Annotation Tools</span>
+        <span>{{__('annotation_tools')}}</span>
         <ul>
           <li>
-            <a href="./bounding-box-annotation-tool">Image Annotation</a>
+            <a href="/annotation-tool/boundingbox">{{__('bounding_box')}}</a>
           </li>
           <li>
-            <a href="./polygonal-segmentation-tool">Polygonal Segmentation</a>
+            <a href="/annotation-tool/polygon">{{__('polygonal_segmentation')}}</a>
           </li>
           <li>
-            <a href="./semantic-segmentation-tool">Semantic Segmentation</a>
+            <a href="/annotation-tool/segmentation">{{__('semantic_segmentation')}}</a>
           </li>
           <li>
-            <a href="./landmark-annotation-tool">Landmark Annotation</a>
+            <a href="/annotation-tool/landmark">{{__('landmark_annotation')}}</a>
           </li>
           <li>
-            <a href="./video-annotation-tool">Video Annotation</a>
+            <a href="/annotation-tool/video">{{__('video_annotation')}}</a>
           </li>
           <li>
-            <a href="./line-annotation-tool">Line Annotation</a>
+            <a href="/annotation-tool/line">{{__('line_annotation')}}</a>
           </li>
           <li>
-            <a href="./3d-cuboids-annotation-tool">3D Cuboids</a>
+            <a href="/annotation-tool/3dcuboid">{{__('cuboids')}}</a>
           </li>
         </ul>
       </li>
       <li class="mobileHeaderItem">
-        <span>Industries</span>
+        <span>{{__('industries')}}</span>
         <ul>
           <li>
-            <a href="./ecommerce">E-Commerce</a>
+            <a href="/industries/ecommerce">{{__('e_commerce')}}</a>
           </li>
           <li>
-            <a href="./fintech">Banking &amp; Insurance</a>
+            <a href="/industries/fintech">{{__('banking_insurance')}}</a>
           </li>
           <li>
-            <a href="./adas">Autonomous Vehicles</a>
+            <a href="/industries/autonomous_vehicles">{{__('autonomous_vehicles')}}</a>
           </li>
         </ul>
       </li>
       <li class="mobileHeaderItem">
-        <span>Resources</span>
-        <ul>
-          <li>
-            <a href="https://docs.playment.io/">API Docs</a>
-          </li>
-          <li>
-            <a href="https://blog.playment.io/">Blog</a>
-          </li>
-          <li>
-            <a href="https://blog.playment.io/category/success-stories">Success Stories</a>
-          </li>
-          <li>
-            <a href="./playment-vs-mechanical-turk">MTurk Alternative</a>
-          </li>
-        </ul>
-      </li>
-      <li class="mobileHeaderItem">
-        <a class="headerContactUs">Contact Us</a>
+        <a class="headerContactUs">{{__('contact_us')}}</a>
       </li>
     </ul>
   </div>

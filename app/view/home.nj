@@ -53,10 +53,10 @@
   <div id="landingBanner">
     <img id="landingBannerWhite1" src="/image/backgroundPointedTop.png">
     <div class="widthLimit">
-      <h1>Data labeling for Computer Vision</h1>
-      <h3>Build training data for computer vision models with our fully managed enterprise solution</h3>
+      <h1>{{__('banner_slogon')}}</h1>
+      <h3>{{__('banner_description')}}</h3>
       <button id="landingBannerStarted" class="getStarted">
-        <span>Get Started Now</span>
+        <span>{{__('get_start_now')}}</span>
       </button>
     </div>
     <div id="landingBlockAnimation">
@@ -235,7 +235,7 @@
   </div>
   <img id="landingBannerWhite2" src="/image/backgroundPointedBottom.png">
   <div id="clienteleWrapper" class="landing">
-    <h2 class="sectionHeader">Trusted By</h2>
+    <h2 class="sectionHeader">{{__('trusted_by')}}</h2>
     <div class="clientele widthLimit">
       <img src="/image/clientele_Driveai.svg" alt="Driveai">
       <img src="/image/clientele_Cyngn.svg" alt="Cyngn">
@@ -254,7 +254,7 @@
       <img src="/image/clientele_Curalate.svg" alt="Curalate"> </div>
   </div>
   <div id="landingServices">
-    <h2 class="sectionHeader">Services we offer</h2>
+    <h2 class="sectionHeader">{{__('services_offer')}}</h2>
     <div class="widthLimit">
       <div id="servicesImgWrapper">
         <img id="servicesImg" src="/image/ServicesWeOffer.jpg"> </div>
@@ -263,91 +263,87 @@
       <div class="servicesItem">
         <a href="/annotation-tool/boundingbox">
           <img class="otherToolsIcon" src="/image/tools/icons/Icon_BoundingBox.svg">
-          <span>Bounding Box</span>
+          <span>{{__('bounding_box')}}</span>
         </a>
         <a href="/annotation-tool/landmark">
           <img class="otherToolsIcon" src="/image/tools/icons/Icon_PointAnnotation.svg">
-          <span>Landmark Annotation</span>
+          <span>{{__('landmark_annotation')}}</span>
         </a>
       </div>
       <div class="servicesItem">
         <a href="/annotation-tool/segmentation">
           <img class="otherToolsIcon" src="/image/tools/icons/Icon_SemanticSegmentation.svg">
-          <span>Semantic Segmentation</span>
+          <span>{{__('semantic_segmentation')}}</span>
         </a>
         <a href="/annotation-tool/polygon">
           <img class="otherToolsIcon" src="/image/tools/icons/Icon_PolygonalAnnotation.svg">
-          <span>Polygonal Annotation</span>
+          <span>{{__('polygonal_segmentation')}}</span>
         </a>
       </div>
       <div id="otherToolsBreak"></div>
       <div class="servicesItem">
         <a href="/annotation-tool/3dcuboid">
           <img class="otherToolsIcon" src="/image/tools/icons/Icon_CuboidalAnnotation.svg">
-          <span>Cuboidal Annotation</span>
+          <span>{{__('cuboidal_annotation')}}</span>
         </a>
         <a href="/annotation-tool/3dcuboid">
           <img class="otherToolsIcon" src="/image/tools/icons/Icon_VideoAnnotation.svg">
-          <span>Video Annotation</span>
+          <span>{{__('video_annotation')}}</span>
         </a>
       </div>
       <div class="servicesItem">
         <a href="./line-annotation-tool">
           <img class="otherToolsIcon" src="/image/tools/icons/Icon_LineAnnotation.svg">
-          <span>Line Annotation</span>
+          <span>{{__('line_annotation')}}</span>
         </a>
         <a class="notReleased">
           <img class="otherToolsIcon" src="/image/tools/icons/Icon_LidarAnnotation.svg">
-          <span>Lidar (Coming soon)</span>
+          <span>{{__('lidar')}}</span>
         </a>
       </div>
     </div>
   </div>
   <div id="features">
     <div class="widthLimit">
-      <h2 class="sectionHeader">Why Playment?</h2>
+      <h2 class="sectionHeader">{{__('why_us')}}</h2>
       <div class="featureRow">
         <div class="featureRowContent">
           <img class="landingFeaturesIcon" src="/image/landing_assuredQuality.svg">
-          <h2>Assured Quality</h2>
-          <p>Consistently delivering high-quality results is our highest priority. Our quality assurance (QA) models are built
-            with state-of-the-art machine learning models to ensure that we meet extremely high quality benchmarks. QA models
-            include worker training, qualification, ranking &amp; response scoring systems and much more.</p>
+          <h2>{{__('assured_quality')}}</h2>
+          <p>{{__('home_assured_quality_description')}}</p>
         </div>
         <div class="featureRowImg">
           <div id="landingContracts">
             <div class="bar"></div>
             <div id="contractContents">
               <div>
-                <p>Precision</p>
+                <p>{{__('precision')}}</p>
                 <p>98%</p>
               </div>
               <div>
-                <p>Recall</p>
+                <p>{{__('recall')}}</p>
                 <p>95%</p>
               </div>
               <div>
-                <p>Response Time</p>
+                <p>{{__('response_time')}}</p>
                 <p>4 hours</p>
               </div>
             </div>
             <img src="/image/home_signature.svg" id="contaractSignature"> </div>
-          <p class="featureRowImgText">We sign contracts for guaranteed quality and response time. We abide by them or you get your money back.</p>
+          <p class="featureRowImgText">{{__('home_assured_quality_pic_desc')}}</p>
         </div>
       </div>
       <div class="featureRow">
         <div class="featureRowContent">
           <img class="landingFeaturesIcon" src="/image/landing_fullyScalable.svg">
-          <h2>Faster at Scale</h2>
-          <p>With 300,000+ skilled workers ready to work round-the-clock on Playment's mobile and web app, we can generate millions
-            of labels in a matter of hours. As the workers do more work, they get better and Playment is able to accomplish
-            much more work in lesser time.</p>
+          <h2>{{__('faster_at_scale')}}</h2>
+          <p>{{__('home_faster_at_scale_description')}}</p>
         </div>
         <div class="featureRowImg">
           <div id="landingScaleImg">
             <div id="landingScaleText">
               <div>
-                <span class="tat">Response Time</span>
+                <span class="tat">{{__('response_time')}}</span>
                 <br>
                 <div id="landingScaleTimer">
                   <div id="digitMinutes">6</div>:
@@ -359,49 +355,47 @@
             <img id="landingScaleGraph" src="/image/fasterAtScale.svg">
             <div id="landingScaleDotDiv" style="left: 5.09935px; top: 254.051px; height: 105.099px;"></div>
           </div>
-          <p class="featureRowImgText">Worker expertise increases significantly with increase in project scale and so they work faster.</p>
+          <p class="featureRowImgText">{{__('home_faster_at_scale_pic_desc')}}</p>
         </div>
       </div>
       <div class="featureRow">
         <div class="featureRowContent">
           <img class="landingFeaturesIcon" src="/image/landing_fullyManaged.svg">
-          <h2>Fully Managed</h2>
-          <p>You just need to share the data &amp; labelling guidelines with our Human Intelligence (HI) team. We provide a
-            dedicated project manager who shall prepare task instructions, train the workforce, setup workflows and ensure
-            that contract level SLAs are delivered consistently.</p>
+          <h2>{{__('fully_managed')}}</h2>
+          <p>{{__('home_fully_managed_description')}}</p>
         </div>
         <div id="featureRowImg3" class="featureRowImg">
           <div id="landingFullyManaged">
             <img src="/image/playmentFullyManaged.svg">
-            <p class="first highlight">Workforce Training</p>
-            <p class="second">Workflow Setup</p>
-            <p class="third">Task Design</p>
-            <p class="fourth">Quality Assurance</p>
-            <p class="fifth highlight">Player Incentivization</p>
-            <p class="sixth">Task Instructions</p>
+            <p class="first highlight">{{__('workforce_training')}}</p>
+            <p class="second">{{__('workflow_setup')}}</p>
+            <p class="third">{{__('task_design')}}</p>
+            <p class="fourth">{{__('quality_assurance')}}</p>
+            <p class="fifth highlight">{{__('player_incentivization')}}</p>
+            <p class="sixth">{{__('task_intructions')}}</p>
           </div>
-          <p class="featureRowImgText">We offer hassle-free end to end project management to setup your process workflow on Playment.</p>
+          <p class="featureRowImgText">{{__('home_fully_managed_pic_desc')}}</p>
         </div>
       </div>
     </div>
   </div>
   <div id="howWork">
-    <h2 class="sectionHeader light">How Playment works?</h2>
+    <h2 class="sectionHeader light">{{__('how_works')}}</h2>
     <div id="howWorkGreen" class="widthLimit">
       <div class="howWorkGreenItem">
         <img class="flowIconGreen" src="/image/flow_sendUsData.svg">
         <p>Step 1</p>
-        <h3>Share Guidelines</h3>
+        <h3>{{__('share_guidelines')}}</h3>
       </div>
       <div class="howWorkGreenItem">
         <img class="flowIconGreen" src="/image/flow_integrateAPIs.svg">
         <p>Step 2</p>
-        <h3>Share Data via API/FTP</h3>
+        <h3>{{__('share_data')}}</h3>
       </div>
       <div class="howWorkGreenItem">
         <img class="flowIconGreen" src="/image/flow_justChill.svg">
         <p>Step 3</p>
-        <h3>Just Chill!</h3>
+        <h3>{{__('just_chill')}}</h3>
       </div>
     </div>
     <div id="howWorkBlue" class="widthLimit">
@@ -409,7 +403,7 @@
         <div class="howWorkBlueItem">
           <img class="howWorkDots d16" src="/image/dots_flow_16.svg">
           <img class="flowIconBlue" src="/image/flow_modellingData.svg">
-          <h3>Workflow Setup</h3>
+          <h3>{{__('workflow_setup')}}</h3>
         </div>
         <div class="howWorkBlueItem">
           <img class="howWorkDots d16" src="/image/dots_flow_16.svg">
@@ -417,19 +411,19 @@
           <img class="howWorkDotsAi" src="/image/dots_flow_5.svg">
           <img class="howWorkDotsAiLeft" src="/image/dots_flow_11.svg">
           <img class="howWorkDotsAiRight" src="/image/dots_flow_11.svg">
-          <h3>Artificial Intelligence</h3>
+          <h3>{{__('artificial_intelligence')}}</h3>
         </div>
         <div class="howWorkBlueItem">
           <img class="howWorkDots d16 reverse" src="/image/dots_flow_16.svg">
           <img class="flowIconBlue" src="/image/flow_collatingData.svg">
-          <h3>Collating the Data</h3>
+          <h3>{{__('collating_data')}}</h3>
         </div>
       </div>
       <div class="howWorkBlueRow">
         <div class="howWorkBlueItem">
           <img class="howWorkDots d9" src="/image/dots_flow_9.svg">
           <img class="flowIconBlue" src="/image/flow_settingWorkforce.svg">
-          <h3>Task Design</h3>
+          <h3>{{__('task_design')}}</h3>
         </div>
         <div class="howWorkBlueItem">
           <div id="flowBlueAnswer">
@@ -439,26 +433,26 @@
             <img class="flowIconBlue" src="/image/flow_correctAnswer.svg">
             <img class="howWorkDotsAnswerAfter" src="/image/dots_flow_5.svg">
             <img class="howWorkDotsAnswerAfterRight" src="/image/dots_flow_22.svg"> </div>
-          <h3>Low Confidence High Confidence</h3>
+          <h3>{{__('low_confidence')}}  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  {{__('high_confidence')}}</h3>
         </div>
         <div class="howWorkBlueItem">
           <img class="howWorkDots d9 reverse" src="/image/dots_flow_9.svg">
           <img class="flowIconBlue" src="/image/flow_qualityCheck.svg">
-          <h3>Quality Check</h3>
+          <h3>{{__('quality_check')}}</h3>
         </div>
       </div>
       <div class="howWorkBlueRow">
         <div class="howWorkBlueItem">
           <img class="howWorkDots d9" src="/image/dots_flow_9.svg">
           <img class="flowIconBlue" src="/image/flow_workerIncentives.svg">
-          <h3>Worker Training &amp; Incentives</h3>
+          <h3>{{__('worker_training')}}</h3>
         </div>
         <div class="howWorkBlueItem">
           <img class="howWorkDotsHiVertical" src="/image/dots_flow_5.svg">
           <img class="howWorkDotsHiHorizontal" src="/image/dots_flow_9.svg">
           <img class="flowIconBlue" src="/image/flow_HI.svg">
           <img class="howWorkDotsHiAfter" src="/image/dots_flow_22.svg">
-          <h3>Human Intelligence</h3>
+          <h3>{{__('human_intelligence')}}</h3>
         </div>
         <div class="howWorkBlueItem">
           <img class="howWorkDots d9 reverse" src="/image/dots_flow_5.svg">
