@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Training Data for Autonomous Driving | Playment</title>
+    <title>Training Data for Autonomous Driving | SparkAPI</title>
     <meta name="description" content="We deliver data to build high precision computer vision models for autonomous driving. Get a demo today!">
     <meta name="keywords" content="autonomous vehicles, autonomous driving, self driving models, sef driving cars, training data for autonomous vehicles, dataset for self driving">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -27,24 +27,24 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <meta property="og:title" content="Training Data for Autonomous Driving | Playment">
+    <meta property="og:title" content="Training Data for Autonomous Driving | SparkAPI">
     <meta property="og:description" content="We deliver data to build high precision computer vision models for autonomous driving. Get a demo today!">
-    <meta property="og:image" content="https://playment.io/favicons/ogHomepage.png">
-    <meta property="og:url" content="https://playment.io">
+    {# <meta property="og:image" content="https://playment.io/favicons/ogHomepage.png"> #}
+    {# <meta property="og:url" content="https://playment.io"> #}
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@PlaymentHQ">
-    <meta name="twitter:creator" content="@PlaymentHQ">
-    <meta name="twitter:title" content="Training Data for Autonomous Driving | Playment">
+    {# <meta name="twitter:site" content="@PlaymentHQ"> #}
+    {# <meta name="twitter:creator" content="@PlaymentHQ"> #}
+    <meta name="twitter:title" content="Training Data for Autonomous Driving | SparkAPI">
     <meta name="twitter:description" content="We deliver data to build high precision computer vision models for autonomous driving. Get a demo today!">
-    <meta name="twitter:image" content="https://playment.io/favicons/ogHomepage.png">
+    {# <meta name="twitter:image" content="https://playment.io/favicons/ogHomepage.png"> #}
     <meta content="true" name="HandheldFriendly">
     <meta content="320" name="MobileOptimized">
     <meta content="yes" name="apple-mobile-web-app-capable">
     <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
-    <meta property="og:site_name" content="Training Data for Autonomous Driving | Playment">
+    <meta property="og:site_name" content="Training Data for Autonomous Driving | SparkAPI">
     <meta name="twitter:image:alt" content="We deliver data to build high precision computer vision models for autonomous driving. Get a demo today!">
     <meta name="msvalidate.01" content="646DB3A7B77DCB1D670094DEBD762EF6">
-    <link rel="canonical" href="https://playment.io/adas/">
+    {# <link rel="canonical" href="https://playment.io/adas/"> #}
 </head>
 
 <body>

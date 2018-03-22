@@ -27,21 +27,21 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
-  <meta property="og:title" content="Playment: Training data for AI, Data Enrichment Services">
+  <meta property="og:title" content="SparkAPI: Training data for AI, Data Enrichment Services">
   <meta property="og:description" content="We are fully-managed solution offering training data for computer vision, machine learning and human-in-the-loop for AI at scale. Get a demo today!">
   <meta property="og:image" content="./favicons/ogHomepage.png">
   <meta property="og:url" content=".">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@PlaymentHQ">
-  <meta name="twitter:creator" content="@PlaymentHQ">
-  <meta name="twitter:title" content="Playment: Training data for AI, Data Enrichment Services">
+  {# <meta name="twitter:site" content="@PlaymentHQ"> #}
+  {# <meta name="twitter:creator" content="@PlaymentHQ"> #}
+  <meta name="twitter:title" content="SparkAPI: Training data for AI, Data Enrichment Services">
   <meta name="twitter:description" content="We are fully-managed solution offering training data for computer vision, machine learning and human-in-the-loop for AI at scale. Get a demo today!">
   <meta name="twitter:image" content="./favicons/ogHomepage.png">
   <meta content="true" name="HandheldFriendly">
   <meta content="320" name="MobileOptimized">
   <meta content="yes" name="apple-mobile-web-app-capable">
   <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
-  <meta property="og:site_name" content="Playment: Training data for AI, Data Enrichment Services">
+  <meta property="og:site_name" content="SparkAPI: Training data for AI, Data Enrichment Services">
   <meta name="twitter:image:alt" content="We are fully-managed solution offering training data for computer vision, machine learning and human-in-the-loop for AI at scale. Get a demo today!">
   <meta name="msvalidate.01" content="646DB3A7B77DCB1D670094DEBD762EF6">
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -465,13 +465,13 @@
     <div id="partnershipsContent">
       <img src="/image/startQuote.svg" id="partnershipsQuoteStart">
       <img src="/image/endQuote.svg" id="partnershipsQuoteEnd">
-      <p>Playment has been instrumental in scaling up the content platforms at Flipkart. The crowdsourced assistance in moderating
+      <p>SparkAPI has been instrumental in scaling up the content platforms at Flipkart. The crowdsourced assistance in moderating
         content for Flipkart solves a real world problem at scale with quality guardrails in place.
         <span>Sriram Krishnamoorthy
           <br>Group Product Manager, Flipkart</span>
       </p>
-      <p>Cataloging operations can become very challenging to run error-free at scale. With Playment we found an extremely hassle
-        free approach to tackle them. Crowdsourcing with Playment has been virtuous in terms of cost, timeliness and scale,
+      <p>Cataloging operations can become very challenging to run error-free at scale. With SparkAPI we found an extremely hassle
+        free approach to tackle them. Crowdsourcing with SparkAPI has been virtuous in terms of cost, timeliness and scale,
         all of it.
         <span>Nehul Malhotra
           <br>General Manager, Paytm</span>
