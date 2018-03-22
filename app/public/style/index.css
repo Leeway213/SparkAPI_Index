@@ -1,0 +1,11 @@
+#header.scrolled{
+  animation: headershow 1s linear forwards;
+}
+@keyframes headershow{
+    0%{
+        opacity: 0
+    }
+    100%{
+        opacity:1
+    }
+}

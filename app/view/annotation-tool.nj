@@ -384,6 +384,9 @@
       </div>
     </div>
   </div> #}
+  <script src="../public/script/jquery-3.2.1.min.js"></script>
+  <script src="../public/script/common.js"></script>
+  <script src="../public/script/boundingBox.js"></script>
 </body>
 
 </html>

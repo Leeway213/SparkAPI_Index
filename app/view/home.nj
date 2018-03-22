@@ -24,6 +24,7 @@
   <link rel="icon" type="image/png" sizes="96x96" href="./favicons/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
   <link rel="manifest" href="./favicons/manifest.json">
+  <link href="../public/style/index.css" rel="stylesheet">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
@@ -519,17 +520,10 @@
   </div> #}
   {% include "template/contactUs.nj" %}
   {% include "template/footer.nj" %}
-  <!-- <script data-cfasync="false" src="/image/email-decode.min.js"></script>
-  <script type="application/ld+json">{ "@context": "http://schema.org", "@type": "Organization", "name": "Playment", "url" : ".", "brand" : { "@type" : "Brand", "logo" : "/image/logoBlue.png" } "sameAs" : [ "http://www.facebook.com/playmenthq", "http://www.twitter.com/playmenthq", ], "potentialAction": { "@type": "SearchAction", "target": "./?s={search_term_string}", "query-input": "required name=search_term_string" } }</script>
-  <script>var random1, random2, tempRandom1, tempRandom2, fullyManagedParagraphs = $("#landingFullyManaged").children("p"); setInterval(function () { for (; random1 === tempRandom1 || random2 === tempRandom2 || tempRandom1 === tempRandom2;)tempRandom1 = Math.floor(6 * Math.random()), tempRandom2 = Math.floor(6 * Math.random()); random1 = tempRandom1, random2 = tempRandom2, [random1, random2].forEach(function (a) { $(fullyManagedParagraphs).eq(a).addClass("highlight") }), setTimeout(function () { $(fullyManagedParagraphs).removeClass("highlight") }, 2100) }, 3e3)</script>
-  <script> var scaleYoffset = 100, landingScaleLeft = 0, scaleStartTimer = 420, scaleEndTimer = 240, scalePoints = [[0, 160], [24, 132], [48, 140], [72, 108], [96, 104], [120, 72], [144, 79], [168, 53], [192, 52], [216, 14], [240, 0]], landingScaleInitialSpeed = .3, landingScaleFinalSpeed = .8, landingScaleSpeed = .3; setInterval(function () { landingScaleSpeed = landingScaleInitialSpeed + (landingScaleFinalSpeed - landingScaleInitialSpeed) * (landingScaleLeft / 240), landingScaleLeft = (landingScaleSpeed + landingScaleLeft) % 240; var e = Math.floor(landingScaleLeft / 24), a = (landingScaleLeft - scalePoints[e][0]) * (scalePoints[e + 1][1] - scalePoints[e][1]) / (scalePoints[e + 1][0] - scalePoints[e][0]); $("#landingScaleDotDiv").css({ left: landingScaleLeft, top: a + scaleYoffset + scalePoints[e][1], height: 100 + landingScaleLeft + "px" }); var l = scaleStartTimer - (scaleStartTimer - scaleEndTimer) * (landingScaleLeft / 240), n = Math.floor(l % 60); $("#digitMinutes").html(Math.floor(l / 60)), $("#digitSeconds").html(n < 10 ? "0" + n : n) }, 10)</script>
-  <script type="text/javascript" id="">!function (b, e, f, g, a, c, d) { b.fbq || (a = b.fbq = function () { a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments) }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e.createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(c, d)) }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js"); fbq("init", "1708707032759025"); fbq("track", "PageView");</script>
-  <noscript>&lt;img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1708707032759025&amp;amp;ev=PageView&amp;amp;noscript=1"&gt;</noscript>
-  <script type="text/javascript" id="">fbq("track", "Lead", { value: "0.01", currency: "INR" });</script>
-  <script type="text/javascript" id="">_linkedin_data_partner_id = "79119";</script>
-  <script type="text/javascript" id="">(function () { var b = document.getElementsByTagName("script")[0], a = document.createElement("script"); a.type = "text/javascript"; a.async = !0; a.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; b.parentNode.insertBefore(a, b) })();</script>
-  <noscript> &lt;img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=79119&amp;amp;fmt=gif"&gt;
-    </noscript> -->
+  <script src="../public/script/jquery-3.2.1.min.js"></script>
+  <script src="../public/script/snap.svg-min.js"></script>
+  <script src="../public/script/common.js"></script>
+  <script src="../public/script/index.js"></script>
 </body>
 
 </html>
