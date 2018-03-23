@@ -238,6 +238,7 @@ module.exports = {
 
 
     // Industries page
+    industry_title:                                     "Training Data for %s",
     usecase_title:                                      "A suite of services for %s companies",
 
     // Autonomous Vehicles

@@ -1,7 +1,9 @@
 <div id="header" class="servicesImageRec">
     <div class="widthLimit">
       <a id="headerLogoDiv" href="/">
-        <img id="headerLogo" src="/image/logo_white.svg" alt=""> </a>
+        <img id="headerLogo" src="/image/logo_white.jpg" alt="">
+        <span id="headerLogoText">SparkAPI</span>
+      </a>
       <ul id="headerNavigation">
         <li>
           <a itemprop="url" href="/industries/autonomous_vehicles">

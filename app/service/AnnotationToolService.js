@@ -24,6 +24,7 @@ class AnnotationToolService extends Service {
         switch(toolType) {
             case 'boundingbox':
 
+            model.title =                       this.ctx.__("bounding_box");
             model.toolsBannerImg =              "/image/tools/headers/Bounding-Box.png";
             model.toolsBannerImgOverlay =       "/image/tools/headers/Bounding-Box-Anno.png";
             model.toolsBannerTextTitle =        this.ctx.__("toolsBannerTextTitle_BoundingBox");
@@ -37,6 +38,7 @@ class AnnotationToolService extends Service {
 
             case 'polygon':
 
+            model.title =                       this.ctx.__("polygonal_segmentation");
             model.toolsBannerImg =              "/image/tools/headers/Polygon.png";
             model.toolsBannerImgOverlay =       "/image/tools/headers/Polygon-Anno.png";
             model.toolsBannerTextTitle =        this.ctx.__("toolsBannerTextTitle_Polygon");
@@ -50,6 +52,7 @@ class AnnotationToolService extends Service {
 
             case 'segmentation':
 
+            model.title =                       this.ctx.__("semantic_segmentation");
             model.toolsBannerImg =              "/image/tools/headers/Semantic-Seg.png";
             model.toolsBannerImgOverlay =       "/image/tools/headers/Semantic-Seg-Anno.png";
             model.toolsBannerTextTitle =        this.ctx.__("toolsBannerTextTitle_Segmentation");
@@ -63,6 +66,7 @@ class AnnotationToolService extends Service {
 
             case 'landmark':
 
+            model.title =                       this.ctx.__("landmark_annotation");
             model.toolsBannerImg =              "/image/tools/headers/Face-Reco.png";
             model.toolsBannerImgOverlay =       "/image/tools/headers/Face-Reco-Anno.png";
             model.toolsBannerTextTitle =        this.ctx.__("toolsBannerTextTitle_Landmark");
@@ -76,6 +80,7 @@ class AnnotationToolService extends Service {
 
             case 'line':
 
+            model.title =                       this.ctx.__("line_annotation");
             model.toolsBannerImg =              "/image/tools/headers/lane.png";
             model.toolsBannerImgOverlay =       "/image/tools/headers/lane-Anno.png";
             model.toolsBannerTextTitle =        this.ctx.__("toolsBannerTextTitle_Line");
@@ -89,6 +94,7 @@ class AnnotationToolService extends Service {
 
             case '3dcuboid':
 
+            model.title =                       this.ctx.__("cuboids");
             model.toolsBannerImg =              "/image/tools/headers/Cuboid.png";
             model.toolsBannerImgOverlay =       "/image/tools/headers/Cuboid-Anno.png";
             model.toolsBannerTextTitle =        this.ctx.__("toolsBannerTextTitle_3DCuboid");
@@ -102,6 +108,7 @@ class AnnotationToolService extends Service {
 
             case 'video':
 
+            model.title =                       this.ctx.__("video_annotation");
             model.toolsBannerImg =              "/image/tools/headers/VideoAnnotation.png";
             model.toolsBannerImgOverlay =       "/image/tools/headers/VideoAnnotationTop.png";
             model.toolsBannerTextTitle =        this.ctx.__("toolsBannerTextTitle_Video");

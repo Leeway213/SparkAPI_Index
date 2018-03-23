@@ -9,6 +9,7 @@ class AnnotationToolController extends Controller {
         const model = this.ctx.service.annotationToolService.generateAnnotationToolModel(toolType);
         if (model) {
             await this.ctx.render('annotation-tool.nj', {
+                title: model.title,
                 toolsBannerImg: model.toolsBannerImg,
                 toolsBannerImgOverlay: model.toolsBannerImgOverlay,
                 toolsBannerTextTitle: model.toolsBannerTextTitle,

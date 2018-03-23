@@ -238,6 +238,7 @@ module.exports = {
 
 
     // Industries page
+    industry_title:                                     "%s训练数据",
     usecase_title:                                      "我们为AI企业开发了系列标注工具",
 
     // Autonomous Vehicles
