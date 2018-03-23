@@ -1,45 +1,45 @@
 <div id="otherTools" class="toolsSkew">
-    <h2 class="toolsSectionHead">Other Tools We have</h2>
+    <h2 class="toolsSectionHead">{{__('other_tools')}}</h2>
     <div id="otherToolsFlex" class="widthLimit">
         <div class="otherToolsItem">
             <a href="/annotation-tool/boundingbox">
                 <img class="otherToolsIcon" src="/image/Icon_BoundingBox.svg">
-                <span>Bounding Box</span>
+                <span>{{__('bounding_box')}}</span>
             </a>
             <a href="/annotation-tool/landmark">
                 <img class="otherToolsIcon" src="/image/Icon_PointAnnotation.svg">
-                <span>Landmark Annotation</span>
+                <span>{{__('landmark_annotation')}}</span>
             </a>
         </div>
         <div class="otherToolsItem">
             <a href="/annotation-tool/segmentation">
                 <img class="otherToolsIcon" src="/image/Icon_SemanticSegmentation.svg">
-                <span>Semantic Segmentation</span>
+                <span>{{__('semantic_segmentation')}}</span>
             </a>
             <a href="/annotation-tool/polygon">
                 <img class="otherToolsIcon" src="/image/Icon_PolygonalAnnotation.svg">
-                <span>Polygonal Annotation</span>
+                <span>{{__('polygonal_segmentation')}}</span>
             </a>
         </div>
         <div id="otherToolsBreak"></div>
         <div class="otherToolsItem">
             <a href="/annotation-tool/3dcuboid">
                 <img class="otherToolsIcon" src="/image/Icon_CuboidalAnnotation.svg">
-                <span>Cuboidal Annotation</span>
+                <span>{{__('cuboids')}}</span>
             </a>
             <a href="/annotation-tool/video">
                 <img class="otherToolsIcon" src="/image/Icon_VideoAnnotation.svg">
-                <span>Video Annotation</span>
+                <span>{{__('video_annotation')}}</span>
             </a>
         </div>
         <div class="otherToolsItem">
             <a href="/annotation-tool/line">
                 <img class="otherToolsIcon" src="/image/Icon_LineAnnotation.svg">
-                <span>Line Annotation</span>
+                <span>{{__('line_annotation')}}</span>
             </a>
             <a class="notReleased">
                 <img class="otherToolsIcon" src="/image/Icon_LidarAnnotation.svg">
-                <span>Lidar (Coming soon)</span>
+                <span>{{__('lidar')}}</span>
             </a>
         </div>
     </div>

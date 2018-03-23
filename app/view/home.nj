@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="./style/font.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/style/main.css">
+  <link rel="stylesheet" type="text/css" href="/style/index.css">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="on" http-equiv="cleartype">
   <link rel="apple-touch-icon" sizes="57x57" href="./favicons/apple-icon-57x57.png">
@@ -462,7 +463,7 @@
       </div>
     </div>
   </div>
-  <div id="partnershipsWrapper">
+  {# <div id="partnershipsWrapper">
     <h2 class="sectionHeader">We believe in long standing partnerships</h2>
     <div id="partnershipsContent">
       <img src="/image/startQuote.svg" id="partnershipsQuoteStart">
@@ -479,7 +480,7 @@
           <br>General Manager, Paytm</span>
       </p>
     </div>
-  </div>
+  </div> #}
   {% include "template/contactModal.nj" %}
   {# <div id="contactBanner" class="tools">
     <div class="widthLimitTools">

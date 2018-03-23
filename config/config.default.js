@@ -37,5 +37,36 @@ module.exports = appInfo => {
     cookieMaxAge: '1y',
   };
 
+  config.bodyParser = {
+    enable: true,
+    encoding: 'utf8',
+    formLimit: '100kb',
+    jsonLimit: '100kb',
+    strict: true,
+    // @see https://github.com/hapijs/qs/blob/master/lib/parse.js#L8 for more options
+    queryString: {
+      arrayLimit: 100,
+      depth: 5,
+      parameterLimit: 1000,
+    }
+  };
+
+  config.logger = {
+    dir: path.join(appInfo.root, 'logs', appInfo.name),
+    encoding: 'utf8',
+    env: appInfo.env,
+    level: 'INFO',
+    consoleLevel: 'INFO',
+    disableConsoleAfterReady: appInfo.env !== 'local' && appInfo.env !== 'unittest',
+    outputJSON: false,
+    buffer: true,
+    appLogName: `${appInfo.name}-web.log`,
+    coreLogName: 'egg-web.log',
+    agentLogName: 'egg-agent.log',
+    errorLogName: 'common-error.log',
+    coreLogger: {},
+    allowDebugAtProd: true,
+  };
+
   return config;
 };

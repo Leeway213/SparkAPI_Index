@@ -1,4 +1,4 @@
-<div id="industriesBanner" class="autonomous">
+<div id="industriesBanner" class="{{class}}">
     <div id="industryBannerBackground" style="top: 8.48px;"></div>
     <div class="widthLimit">
         <div id="industriesTag">{{title}}</div>

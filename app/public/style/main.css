@@ -2,7 +2,7 @@ html {
     font-size: 18px;
     margin: 0;
     padding: 0;
-    font-family: Source Sans Pro, sans-serif;
+    font-family: "PingFangSC","helvetica neue","arial",'hiragino sans gb','microsoft yahei ui','microsoft yahei',"simsun","sans-serif" !important;;
   }
   html::selection {
     background-color: rgba(67, 87, 236, 0.3);
@@ -1893,15 +1893,15 @@ html {
     max-width: 600px;
   }
   #industriesBanner.ecommerce #industryBannerBackground {
-    background: url(/image/industry/bg_ecommerce.png);
+    background: url(/image/industries/bg_ecommerce.png);
     background-size: cover;
   }
   #industriesBanner.autonomous #industryBannerBackground {
-    background: transparent;
+    background: url(/image/industries/bg_adas.png);
     background-size: cover;
   }
   #industriesBanner.fintech #industryBannerBackground {
-    background: url(/image/industry/bg_fintech.png);
+    background: url(/image/industries/bg_fintech.png);
     background-size: cover;
   }
   #industryBannerBackground {

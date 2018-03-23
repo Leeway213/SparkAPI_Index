@@ -25,6 +25,7 @@ class IndustriesService extends Service {
         switch(industry) {
             case "autonomous_vehicles":
 
+            model.class = 'autonomous';
             model.title = this.ctx.__("autonomous_driving");
             model.slogon = this.ctx.__("autonomous_slogon");
 
@@ -32,6 +33,7 @@ class IndustriesService extends Service {
 
             case "e_commerce":
 
+            model.class = 'ecommerce';
             model.title = this.ctx.__("e_commerce");
             model.slogon = this.ctx.__("e_commerce_slogon");
 
@@ -39,6 +41,7 @@ class IndustriesService extends Service {
 
             case "fintech":
 
+            model.class = 'fintech';
             model.title = this.ctx.__("finance_title");
             model.slogon = this.ctx.__("finance_slogon");
             

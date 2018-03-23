@@ -16,6 +16,14 @@ module.exports = {
     industries:                                         "Industries",
     banking_insurance:                                  "Banking & Insurance",
     autonomous_vehicles:                                "Autonomous Vehicles",
+
+
+    //footer
+    about_us:                                           "About Us",
+    join_us:                                            "Join Us",
+    blog:                                               "Our Blog",
+    address:                                            "",
+
                             
     // Home page                            
     banner_slogon:                                      "Data labeling for Computer Vision",
@@ -65,6 +73,22 @@ module.exports = {
     contact_us:                                         "Contact Us",
     learn_more:                                         "To learn more about SparkAPI",
     enter_email:                                        "Enter your work email address",
+    help_to_reach:                                      "This will help our experts to reach you faster.",
+    submit:                                             "Submit",
+    great_companies:                                    "Great companies choose SparkAPI",
+
+    name:                                               "Name",
+    work_email:                                         "Work email address",
+    phone_number:                                       "Phone number with country code",
+    project_requirement:                                "Let us know about your project requirements",
+
+    // thank you
+    thank_you:                                          "Thank You!",
+    thank_you_description:                              "We are glad to have your interest in SparkAPI. We will get back to you as soon as possible.",
+    interesting:                                        "Meanwhile, here are some resources we think you might find interesting:",
+
+    // other tools
+    other_tools:                                        "OTHER TOOLS WE HAVE",
 
     // Classes of tools
 

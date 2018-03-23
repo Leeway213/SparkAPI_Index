@@ -1,0 +1,21 @@
+<div id="thankyouBanner">
+    <div id="thankyouBannerBackground"></div>
+    <div id="thankyouWrapper">
+        <div id="thankyouContents">
+            <h3>{{__('thank_you')}}</h3>
+            <p>{{__('thank_you_description')}}</p>
+            <p>{{__('interesting')}}</p>
+            <p>
+                <a href="https://blog.csdn.net/sparkapi/article/details/79670392" target="_blank">基于实例的像素级标注介绍</a>
+                <br>
+                <a href="https://blog.csdn.net/sparkapi/article/details/79665877" target="_blank">机器视觉中常用开源数据集和免费标注工具</a>
+                <br>
+                <a href="https://blog.csdn.net/sparkapi/article/details/79652571" target="_blank">自动驾驶领域的语义分割数据集有哪些</a>
+                <br>
+                <a href="https://blog.csdn.net/sparkapi/article/details/79365803" target="_blank">什么是训练数据</a>
+                <br>
+                <a href="https://blog.csdn.net/sparkapi/article/details/79666044" target="_blank">自动驾驶语义分割模型</a>
+            </p>
+        </div>
+    </div>
+</div>

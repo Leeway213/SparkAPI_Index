@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>SparkAPI | Thank you</title>
+    <meta name="description" content="We are fully-managed solution offering training data for computer vision, machine learning and human-in-the-loop for AI at scale. Get a demo today!">
+    <meta name="keywords" content="training data services, human in the loop, outsourcing services, dataset services">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/style/main.css">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="on" http-equiv="cleartype">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="SparkAPI | Thank you">
+    <meta property="og:description" content="We are fully-managed solution offering training data for computer vision, machine learning and human-in-the-loop for AI at scale. Get a demo today!">
+    {# <meta property="og:image" content="https://playment.io/favicons/ogHomepage.png"> #}
+    {# <meta property="og:url" content="https://playment.io"> #}
+    <meta name="twitter:card" content="summary_large_image">
+    {# <meta name="twitter:site" content="@PlaymentHQ"> #}
+    {# <meta name="twitter:creator" content="@PlaymentHQ"> #}
+    <meta name="twitter:title" content="SparkAPI | Thank you">
+    <meta name="twitter:description" content="We are fully-managed solution offering training data for computer vision, machine learning and human-in-the-loop for AI at scale. Get a demo today!">
+    {# <meta name="twitter:image" content="https://playment.io/favicons/ogHomepage.png"> #}
+    <meta content="true" name="HandheldFriendly">
+    <meta content="320" name="MobileOptimized">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
+    <meta property="og:site_name" content="SparkAPI | Thank you">
+    <meta name="twitter:image:alt" content="We are fully-managed solution offering training data for computer vision, machine learning and human-in-the-loop for AI at scale. Get a demo today!">
+    <meta name="msvalidate.01" content="646DB3A7B77DCB1D670094DEBD762EF6">
+    <link rel="canonical" href="https://playment.io/thank-you">
+</head>
+
+<body id="landing">
+    {% include "template/header.nj" %}
+    {% include "template/thanks/thankyouBanner.nj" %}
+    {% include "template/contactModal.nj" %}
+    {% include "template/toolPage/otherTools.nj" %}
+    {% include "template/footer.nj" %}
+</body>
+
+</html>

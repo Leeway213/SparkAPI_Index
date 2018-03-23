@@ -6,6 +6,7 @@ class IndustriesController extends Controller {
         const model = this.ctx.service.industriesService.generateModel(industry);
         if (model) {
             await this.ctx.render('industries.nj', {
+                class: model.class,
                 title: model.title,
                 slogon: model.slogon,
                 usecases: model.usecases
