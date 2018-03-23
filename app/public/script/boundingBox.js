@@ -4,10 +4,8 @@ $(document).scroll(function(e) {
     if(topDistance<700){
         $("#header").removeClass('scrolled');
         $('#header').css('position','absolute');
-        $('#header').css('top','50px');
     }else{
         $('#header').addClass('scrolled');
         $('#header').css('position','fixed');
-        $('#header').css('top','0');
     }
 });

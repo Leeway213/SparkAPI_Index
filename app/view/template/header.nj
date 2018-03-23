@@ -1,4 +1,4 @@
-<div id="header" class="servicesImageRec scrolled" style="position: fixed; top: 0px;">
+<div id="header" class="servicesImageRec">
     <div class="widthLimit">
       <a id="headerLogoDiv" href="/">
         <img id="headerLogo" src="/image/logo_white.svg" alt=""> </a>

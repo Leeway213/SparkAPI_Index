@@ -59,10 +59,11 @@ $(document).scroll(function(e){
     var topDistance=$(this).scrollTop();
     var $destiEle;
     $destiEle=$('.servicesScrollLoading.scrollLoading');
-    var firstDistance=$destiEle.eq(0).offset().top-$(window).height() ;
-    var secondDistance=$destiEle.eq(1).offset().top-$(window).height() ;
-    var thirdDistance=$destiEle.eq(2).offset().top-$(window).height() ;
-    console.log(topDistance);
+    var firstDistance=$destiEle.eq(0).offset().top-window.innerHeight ;
+    var secondDistance=$destiEle.eq(1).offset().top-window.innerHeight ;
+    var thirdDistance=$destiEle.eq(2).offset().top-window.innerHeight ;
+    console.log($destiEle.eq(0).offset().top);
+    console.log(window.innerHeight);
     if(topDistance>firstDistance){
         if(!$destiEle.eq(0).hasClass('loaded')){
             setTimeout(function(){            
