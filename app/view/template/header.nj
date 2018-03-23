@@ -130,7 +130,7 @@
         <span>{{__('industries')}}</span>
         <ul>
           <li>
-            <a href="/industries/ecommerce">{{__('e_commerce')}}</a>
+            <a href="/industries/e_commerce">{{__('e_commerce')}}</a>
           </li>
           <li>
             <a href="/industries/fintech">{{__('banking_insurance')}}</a>
