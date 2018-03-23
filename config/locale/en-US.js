@@ -203,6 +203,15 @@ module.exports = {
     toolsUsecasesItemContentDescription2_3dcuboid:   "Used to build 3D simulated worlds from 2D information captured by cameras.",
     toolsUsecasesItemImg2_3dcuboid:         "/image/tools/usecases/3DCuboid_InDoors.jpg",
 
+    // Video annotation tool page
+    toolsBannerTextTitle_Video:       "Video Annotation",
+    toolsBannerTextDescription_Video: "Locate and track objects frame by frame in a sequence of images",
+
+    toolsUsecasesItemContentTitle1_video:         "Object tracking for Self-driving cars",
+    toolsUsecasesItemContentDescription1_video:   "Extensively used to train autonomous driving prediction models for vehicles, pedestrians, cyclists, lanes, etc.",
+    toolsUsecasesItemImg1_video:         "/image/tools/usecases/VideoAnnotation_SelfDriving.gif",
+
+
 
     // Industries page
     usecase_title:      "A suite of services for %s companies",

@@ -27,7 +27,7 @@
                 <img class="otherToolsIcon" src="/image/Icon_CuboidalAnnotation.svg">
                 <span>Cuboidal Annotation</span>
             </a>
-            <a href="/annotation-tool/3dcuboid">
+            <a href="/annotation-tool/video">
                 <img class="otherToolsIcon" src="/image/Icon_VideoAnnotation.svg">
                 <span>Video Annotation</span>
             </a>

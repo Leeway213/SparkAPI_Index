@@ -1,4 +1,4 @@
-<div id="header" class="servicesImageRec scrolled" style="position: fixed; top: 0px;">
+<div id="header" class="servicesImageRec" style="position: fixed; top: 0px;">
     <div class="widthLimit">
       <a id="headerLogoDiv" href="/">
         <img id="headerLogo" src="/image/logo_white.svg" alt=""> </a>
@@ -31,7 +31,7 @@
                   <img class="headerDropdownIcon" src="/image/Icon_PointAnnotation.svg">
                   <span class="headerDropdownText">{{__('landmark_annotation')}}</span>
                 </a>
-                <a class="headerDropdownItem" itemprop="url" href="./video-annotation-tool">
+                <a class="headerDropdownItem" itemprop="url" href="/annotation-tool/video">
                   <img class="headerDropdownIcon" src="/image/Icon_VideoAnnotation.svg">
                   <span class="headerDropdownText">{{__('video_annotation')}}</span>
                 </a>

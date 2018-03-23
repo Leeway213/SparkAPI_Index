@@ -100,6 +100,19 @@ class AnnotationToolService extends Service {
 
             break;
 
+            case 'video':
+
+            model.toolsBannerImg =              "/image/tools/headers/VideoAnnotation.png";
+            model.toolsBannerImgOverlay =       "/image/tools/headers/VideoAnnotationTop.png";
+            model.toolsBannerTextTitle =        this.ctx.__("toolsBannerTextTitle_Video");
+            model.toolsBannerTextDescription =  this.ctx.__("toolsBannerTextDescription_Video");
+            model.time_per_annotation_value =   this.ctx.__("low");
+            model.cost_per_annotation_value =   this.ctx.__("least_expensive");
+            model.shape_perception_value =      this.ctx.__("absent");
+            model.spatial_perception_value =    this.ctx.__("absent"); 
+
+            break;
+
             default:
 
             model = undefined;

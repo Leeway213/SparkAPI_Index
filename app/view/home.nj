@@ -285,7 +285,7 @@
           <img class="otherToolsIcon" src="/image/tools/icons/Icon_CuboidalAnnotation.svg">
           <span>{{__('cuboidal_annotation')}}</span>
         </a>
-        <a href="/annotation-tool/3dcuboid">
+        <a href="/annotation-tool/video">
           <img class="otherToolsIcon" src="/image/tools/icons/Icon_VideoAnnotation.svg">
           <span>{{__('video_annotation')}}</span>
         </a>
