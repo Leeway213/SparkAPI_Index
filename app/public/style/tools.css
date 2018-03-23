@@ -164,7 +164,7 @@ a {
 
 #header .widthLimit {
     display: flex;
-    padding: 8px 20px
+    padding: 8px 20px;
 }
 
 #header.scrolled {
@@ -197,9 +197,11 @@ a {
 }
 
 #toolsBody #header {
-    top: 50px
+    top:16px;
 }
-
+#toolsBody #header.scrolled {
+    top:0px;
+}
 #headerLogoDiv {
     padding: 5px 0
 }
