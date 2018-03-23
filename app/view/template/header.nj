@@ -88,8 +88,10 @@
   </div>
   <div id="headerMobile" class="servicesImageRec">
     <div id="headerMobileTop">
-      <a href="/">
-        <img id="mobileLogomark" src="/image/playment_logomark.svg" alt=""> </a>
+      <a id="headerLogoDiv" href="/">
+        <img id="mobileLogomark" src="/image/logo_white.jpg" alt="">
+        <span id="headerLogoText">SparkAPI</span>
+      </a>
       <button id="headerMobileToggle">
         <img class="cross headerToggleImg" src="/image/cross.svg" alt="">
         <img class="menu headerToggleImg" src="/image/menu.svg" alt=""> </button>
