@@ -197,11 +197,13 @@ a {
 }
 
 #toolsBody #header {
-    top:16px;
+    top: 20px;
 }
+
 #toolsBody #header.scrolled {
-    top:0px;
+    top: 0px;
 }
+
 #headerLogoDiv {
     padding: 5px 0
 }

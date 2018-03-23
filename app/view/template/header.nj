@@ -86,7 +86,7 @@
   </div>
   <div id="headerMobile" class="servicesImageRec">
     <div id="headerMobileTop">
-      <a href="./">
+      <a href="/">
         <img id="mobileLogomark" src="/image/playment_logomark.svg" alt=""> </a>
       <button id="headerMobileToggle">
         <img class="cross headerToggleImg" src="/image/cross.svg" alt="">

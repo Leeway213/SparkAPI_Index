@@ -114,10 +114,10 @@ module.exports = {
     assured_quality_description:                        "Guaranteed accuracy. We know you’d have it no other way.",
 
     fully_managed:                                      "Fully Managed",
-    fully_managed_description:                          "Use our API to get responses within minutes.",
+    fully_managed_description:                          "We do the heavy lifting so that you can relax.",
 
     faster_at_scale:                                    "Faster at Scale",
-    faster_at_scale_description:                        "We do the heavy lifting so that you can relax.",
+    faster_at_scale_description:                        "Use our API to get responses within minutes.",
 
     // Bounding box tool page           
     toolsBannerTextTitle_BoundingBox:                   "2D Bounding Boxes",
@@ -218,7 +218,7 @@ module.exports = {
 
     // Autonomous Vehicles
     autonomous_driving:                                 "Autonomous Driving",
-    autonomous_slogon:                                  "Get data tagged with high precision &amp; recall to train reliable self-driving models",
+    autonomous_slogon:                                  "Get data tagged with high precision recall to train reliable self-driving models",
 
     usecase_title_1_autonomous_vehicles:                "Bounding Boxes",
     usecase_description_1_autonomous_vehicles:          "Bounding boxes can be used for general object recognition. Though not as precise as it's more complex successors, they are more than sufficient in most scenarios.",
